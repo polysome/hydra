@@ -1,0 +1,28 @@
+# Synospys Constraint Checker(syntax only), version maprc, Build 1355R, built Nov 28 2012
+# Copyright (C) 1994-2012, Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+# Written on Tue Jun 11 19:17:51 2013
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "MasterSlave_TRI"
+Constraint File(s):      "C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.sdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+**************
+
+Start                    Requested     Requested     Clock        Clock                
+Clock                    Frequency     Period        Type         Group                
+---------------------------------------------------------------------------------------
+MasterSlave_TRI|HCLK     3.8 MHz       262.479       inferred     Autoconstr_clkgroup_0
+=======================================================================================

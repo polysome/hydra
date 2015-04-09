@@ -1,0 +1,19 @@
+@P:  Worst Slack : -10.981
+@P:  MasterSlave_TRI|HCLK - Estimated Frequency : 11.7 MHz
+@P:  MasterSlave_TRI|HCLK - Requested Frequency : 15.7 MHz
+@P:  MasterSlave_TRI|HCLK - Estimated Period : 85.600
+@P:  MasterSlave_TRI|HCLK - Requested Period : 63.639
+@P:  MasterSlave_TRI|HCLK - Slack : -10.981
+@P:  Worst Slack(min analysis) : 0.859
+@P:  MasterSlave_TRI|HCLK - Estimated Frequency(min analysis) : 11.7 MHz
+@P:  MasterSlave_TRI|HCLK - Requested Frequency(min analysis) : 15.7 MHz
+@P:  MasterSlave_TRI|HCLK - Estimated Period(min analysis) : 85.600
+@P:  MasterSlave_TRI|HCLK - Requested Period(min analysis) : 63.639
+@P:  MasterSlave_TRI|HCLK - Slack(min analysis) : -10.981
+@P: MasterSlave_TRI Part : xc3s5000fg676-4
+@P: MasterSlave_TRI I/O primitives : 87
+@P: MasterSlave_TRI I/O Register bits : 49
+@P: MasterSlave_TRI Register bits (Non I/O) : 1836 (2%)
+@P: MasterSlave_TRI Block Rams : 9 of 104 (8%)
+@P: MasterSlave_TRI Total Luts : 18280 (27%)
+@P:  CPU Time : 0h:02m:45s

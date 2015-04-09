@@ -1,0 +1,16 @@
+# Output products list for <I_cache>
+I_cache.asy
+I_cache.gise
+I_cache.ngc
+I_cache.sym
+I_cache.v
+I_cache.veo
+I_cache.vhd
+I_cache.vho
+I_cache.xco
+I_cache.xise
+I_cache_flist.txt
+I_cache_xmdf.tcl
+_xmsgs\pn_parser.xmsgs
+blk_mem_gen_ds512.pdf
+blk_mem_gen_readme.txt

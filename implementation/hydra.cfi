@@ -1,0 +1,12 @@
+# PROMGEN: Xilinx Prom Generator M.63c
+# Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION M.63c
+DATE            06/14/2013 - 02:11
+SOURCE          C:\Users\morpack\Documents\morpack_fpga\hydra\hydra.mcs
+DEVICE          XCF16P
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x08808604
+BLOCK 0 VERSION 0 0x08808604
+BLOCK 1 VERSION 0 END 0x08808604

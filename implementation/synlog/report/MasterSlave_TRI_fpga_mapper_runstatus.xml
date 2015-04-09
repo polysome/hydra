@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the job information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<job_run_status name="Mapper">
+<report_link name="Detailed report">
+<data>C:\Users\morpack\Documents\morpack_fpga\hydra\synlog\MasterSlave_TRI_fpga_mapper.srr</data>
+</report_link>
+<job_status>
+<data>Failed</data>
+</job_status>
+<job_info>
+<info name="Notes">
+<data>150</data>
+<report_link name="more">
+<data>C:\Users\morpack\Documents\morpack_fpga\hydra\synlog\report\MasterSlave_TRI_fpga_mapper_notes.txt</data>
+</report_link>
+</info>
+<info name="Warnings">
+<data>50</data>
+<report_link name="more">
+<data>C:\Users\morpack\Documents\morpack_fpga\hydra\synlog\report\MasterSlave_TRI_fpga_mapper_warnings.txt</data>
+</report_link>
+</info>
+<info name="Errors">
+<data>1</data>
+<report_link name="more">
+<data>C:\Users\morpack\Documents\morpack_fpga\hydra\synlog\report\MasterSlave_TRI_fpga_mapper_errors.txt</data>
+</report_link>
+</info>
+<info name="CPU Time">
+<data>0h:03m:58s</data>
+</info>
+<info name="Real Time">
+<data>0h:03m:59s</data>
+</info>
+<info name="Peak Memory">
+<data>327MB</data>
+</info>
+<info name="Date &amp; Time">
+<data type="timestamp">1371132501</data>
+</info>
+</job_info>
+</job_run_status>

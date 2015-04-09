@@ -1,0 +1,93 @@
+Synopsys Xilinx Technology Mapper, Version maprc, Build 1355R, Built Nov 28 2012 22:04:54
+Copyright (C) 1994-2012, Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version G-2012.09-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 92MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 94MB)
+
+Reading Xilinx I/O pad type table from file <C:\Synopsys\fpga_G201209SP1\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <C:\Synopsys\fpga_G201209SP1\lib\xilinx\gttype.txt> 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 131MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 131MB peak: 136MB)
+
+Encoding state machine current_state[7:0] (view:work.MYIP_WRAPPER(verilog))
+original code -> new code
+   0000 -> 00000001
+   0001 -> 00000010
+   0010 -> 00000100
+   0011 -> 00001000
+   0100 -> 00010000
+   0101 -> 00100000
+   0110 -> 01000000
+   1111 -> 10000000
+@N:"c:\users\morpack\documents\morpack_fpga\hydra\hydra_wrapper_v2.v":636:0:636:5|Found counter in view:work.MYIP_WRAPPER(verilog) inst ext_data_input_addr_counter[29:0]
+@N:"c:\users\morpack\documents\morpack_fpga\hydra\hydra_wrapper_v2.v":636:0:636:5|Found counter in view:work.MYIP_WRAPPER(verilog) inst ext_data_output_addr_counter[29:0]
+@N:"c:\users\morpack\documents\morpack_fpga\hydra\hydra_wrapper_v2.v":636:0:636:5|Found counter in view:work.MYIP_WRAPPER(verilog) inst ext_inst_input_addr_counter[29:0]
+@W: MO129 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_wrapper_v2.v":636:0:636:5|Sequential instance uMasterSlave.MYIP_status_r[0] reduced to a combinational gate by constant propagation
+Encoding state machine curstate[7:0] (view:work.Hydra_controller(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+@N:"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":561:2:561:7|Found counter in view:work.Hydra_controller(verilog) inst counter_data[8:0]
+@N:"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":561:2:561:7|Found counter in view:work.Hydra_controller(verilog) inst counter_io[4:0]
+@N:"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":561:2:561:7|Found counter in view:work.Hydra_controller(verilog) inst counter_inst[8:0]
+Encoding state machine curstate[9:0] (view:work.Hydra(verilog))
+original code -> new code
+   0000 -> 0000000001
+   0010 -> 0000000010
+   0011 -> 0000000100
+   0100 -> 0000001000
+   0101 -> 0000010000
+   0110 -> 0000100000
+   0111 -> 0001000000
+   1000 -> 0010000000
+   1001 -> 0100000000
+   1111 -> 1000000000
+@N:"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":126:0:126:5|Found counter in view:work.Hydra(verilog) inst counter[4:0]
+Encoding state machine counter[1:0] (view:work.smart_unit(verilog))
+original code -> new code
+   00000 -> 0
+   00001 -> 1
+@N:"c:\users\morpack\documents\morpack_fpga\hydra\smart_sche_unit.v":70:0:70:5|Found counter in view:work.smart_unit(verilog) inst counter_jump[6:0]
+
+Finished factoring (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:28s; Memory used current: 236MB peak: 236MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:29s; Memory used current: 208MB peak: 247MB)
+
+Constraint Checker successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:30s; Memory used current: 116MB peak: 247MB)
+
+Process took 0h:00m:30s realtime, 0h:00m:30s cputime
+# Tue Jun 11 19:17:38 2013
+
+###########################################################]

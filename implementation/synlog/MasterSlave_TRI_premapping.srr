@@ -1,0 +1,37 @@
+Synopsys Xilinx Technology Pre-mapping, Version maprc, Build 517R, Built May 23 2011 20:28:51
+Copyright (C) 1994-2011, Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version E-2011.03-SP1
+Reading constraint file: C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.sdc
+@N: MF249 |Running in 64-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+Reading Xilinx I/O pad type table from file <C:\Synopsys\fpga_E201103SP1\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <C:\Synopsys\fpga_E201103SP1\lib\xilinx\gttype.txt> 
+@W: BN132 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":112:0:112:5|Removing sequential instance np[12],  because it is equivalent to instance np[10]
+@W: BN132 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":112:0:112:5|Removing sequential instance np[6],  because it is equivalent to instance np[10]
+@W: BN132 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":112:0:112:5|Removing sequential instance np[10],  because it is equivalent to instance np[0]
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a remainder type rem 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a remainder type rem 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a remainder type rem 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a remainder type rem 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a remainder type rem 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a remainder type rem 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a remainder type rem 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a remainder type rem 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a remainder type rem 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a remainder type rem 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a remainder type rem 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a remainder type rem 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a remainder type rem 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a remainder type rem 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a remainder type rem 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a remainder type rem 
+
+Finished Pre Mapping Phase. (Time elapsed 0h:00m:04s; Memory used current: 140MB peak: 144MB)
+
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":47:17:47:24|tristate driver HLOCKtri on net HLOCKtri has its enable tied to GND (module MasterSlave_TRI) 
+@N: BN225 |Writing default property annotation file C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.sap.
+Pre Mapping successful!
+Process took 0h:00m:05s realtime, 0h:00m:04s cputime
+# Fri Jun 14 01:20:26 2013
+
+###########################################################]

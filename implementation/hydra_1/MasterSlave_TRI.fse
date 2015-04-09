@@ -1,0 +1,72 @@
+
+fsm_encoding {1463606361} onehot
+
+fsm_state_encoding {1463606361} 0000 {00000001}
+
+fsm_state_encoding {1463606361} 0001 {00000010}
+
+fsm_state_encoding {1463606361} 0010 {00000100}
+
+fsm_state_encoding {1463606361} 0011 {00001000}
+
+fsm_state_encoding {1463606361} 0100 {00010000}
+
+fsm_state_encoding {1463606361} 0101 {00100000}
+
+fsm_state_encoding {1463606361} 0110 {01000000}
+
+fsm_state_encoding {1463606361} 1111 {10000000}
+
+fsm_registers {1463606361} {current_state[7]}  {current_state[6]}  {current_state[5]}  {current_state[4]}  {current_state[3]}  {current_state[2]}  {current_state[1]}  {current_state[0]} 
+
+fsm_encoding {1256125612} onehot
+
+fsm_state_encoding {1256125612} STATE_IDLE {00000001}
+
+fsm_state_encoding {1256125612} STATE_INST_LOAD {00000010}
+
+fsm_state_encoding {1256125612} STATE_DATA_LOAD {00000100}
+
+fsm_state_encoding {1256125612} STATE_DATA_EXE {00001000}
+
+fsm_state_encoding {1256125612} STATE_WAIT {00010000}
+
+fsm_state_encoding {1256125612} STATE_OUTPUT_DATA {00100000}
+
+fsm_state_encoding {1256125612} STATE_FINISH {01000000}
+
+fsm_state_encoding {1256125612} STATE_INTERRUPT {10000000}
+
+fsm_registers {1256125612} {curstate[7]}  {curstate[6]}  {curstate[5]}  {curstate[4]}  {curstate[3]}  {curstate[2]}  {curstate[1]}  {curstate[0]} 
+
+fsm_encoding {1112601264} onehot
+
+fsm_state_encoding {1112601264} state_idle {0000000001}
+
+fsm_state_encoding {1112601264} state_p_m_0 {0000000010}
+
+fsm_state_encoding {1112601264} state_p_m_1 {0000000100}
+
+fsm_state_encoding {1112601264} state_p_m_2 {0000001000}
+
+fsm_state_encoding {1112601264} state_p_m_3 {0000010000}
+
+fsm_state_encoding {1112601264} state_p_a_1 {0000100000}
+
+fsm_state_encoding {1112601264} state_p_s_N {0001000000}
+
+fsm_state_encoding {1112601264} state_p_s_1 {0010000000}
+
+fsm_state_encoding {1112601264} state_p_a_N {0100000000}
+
+fsm_state_encoding {1112601264} state_write {1000000000}
+
+fsm_registers {1112601264} {curstate[9]}  {curstate[8]}  {curstate[7]}  {curstate[6]}  {curstate[5]}  {curstate[4]}  {curstate[3]}  {curstate[2]}  {curstate[1]}  {curstate[0]} 
+
+fsm_encoding {8700703} sequential
+
+fsm_state_encoding {8700703} 00000 {0}
+
+fsm_state_encoding {8700703} 00001 {1}
+
+fsm_registers {8700703} {counter[0]} 

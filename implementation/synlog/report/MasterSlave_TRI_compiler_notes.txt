@@ -1,0 +1,30 @@
+@N::"C:\Users\morpack\Documents\morpack_fpga\hydra\pr\xflow.log"|
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:: Running Verilog Compiler in System Verilog mode
+@N: CG334 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v":56:13:56:25|Read directive translate_off 
+@N: CG333 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v":136:13:136:24|Read directive translate_on 
+@N: CG334 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v":56:13:56:25|Read directive translate_off 
+@N: CG333 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v":136:13:136:24|Read directive translate_on 
+@N:: Running Verilog Compiler in System Verilog mode
+@N: CG334 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v":56:13:56:25|Read directive translate_off 
+@N: CG333 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v":136:13:136:24|Read directive translate_on 
+@N: CG334 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v":56:13:56:25|Read directive translate_off 
+@N: CG333 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v":136:13:136:24|Read directive translate_on 
+@N: CG364 :"C:\Users\morpack\Documents\morpack_fpga\hydra\TBCTRL.v":1:7:1:12|Synthesizing module TBCTRL
+@N: CG179 :"C:\Users\morpack\Documents\morpack_fpga\hydra\TBCTRL.v":98:28:98:44|Removing redundant assignment
+@N: CG179 :"C:\Users\morpack\Documents\morpack_fpga\hydra\TBCTRL.v":113:16:113:20|Removing redundant assignment
+@N: CG364 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":1:7:1:11|Synthesizing module Hydra
+@N: CG364 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v":40:7:40:22|Synthesizing module blk_mem_gen_v4_2
+@N: CG364 :"C:\Users\morpack\Documents\morpack_fpga\hydra\smart_sche_unit.v":1:7:1:16|Synthesizing module smart_unit
+@N: CG364 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v":40:7:40:13|Synthesizing module I_cache
+@N: CG364 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Top_controller_v2.v":4:7:4:22|Synthesizing module Hydra_controller
+@N: CG364 :"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v":10:7:10:18|Synthesizing module MYIP_WRAPPER
+@N: CG364 :"C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v":26:7:26:21|Synthesizing module MasterSlave_TRI
+@N: CL201 :"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v":634:0:634:5|Trying to extract state machine for register current_state
+@N: CL201 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Top_controller_v2.v":584:2:584:7|Trying to extract state machine for register curstate
+@N: CL201 :"C:\Users\morpack\Documents\morpack_fpga\hydra\smart_sche_unit.v":70:0:70:5|Trying to extract state machine for register inst_1
+@N: CL201 :"C:\Users\morpack\Documents\morpack_fpga\hydra\smart_sche_unit.v":70:0:70:5|Trying to extract state machine for register counter
+@N: CL201 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Trying to extract state machine for register curstate
+@N|Running in 64-bit mode
+

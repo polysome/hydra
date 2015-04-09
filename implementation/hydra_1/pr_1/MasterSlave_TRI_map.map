@@ -1,0 +1,364 @@
+Release 12.2 Map M.63c (nt64)
+Xilinx Map Application Log File for Design 'MasterSlave_TRI'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s5000-fg676-4 -cm area -detail -ir off
+-pr off -c 100 -o MasterSlave_TRI_map.ncd MasterSlave_TRI.ngd
+MasterSlave_TRI.pcf 
+Target Device  : xc3s5000
+Target Package : fg676
+Target Speed   : -4
+Mapper Version : spartan3 -- $Revision: 1.52 $
+Mapped Date    : Tue Jun 11 19:21:28 2013
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to
+'2100@140.126.24.16'.
+INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to
+'26585@140.126.24.10;26585@140.126.24.10'.
+INFO:Security:56 - Part 'xc3s5000' is not a WebPack part.
+WARNING:Security:43 - No license file was found in the standard Xilinx license
+directory.
+WARNING:Security:44 - No license file was found.
+       Please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses")
+       to assist in obtaining a license.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+----------------------------------------------------------------------
+Mapping design into LUTs...
+Running directed packing...
+WARNING:Pack:1543 - The register TriBusControlLogic/SlaveDataPhaseSel_rep0_i has
+   the property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/SlaveDataPhaseSel_rep0_i
+   has no connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/SlaveDataPhaseSel_rep1_i has
+   the property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/SlaveDataPhaseSel_rep1_i
+   has no connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep0_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep0_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep1_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep1_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep2_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep2_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep3_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep3_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep4_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep4_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep5_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep5_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep6_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep6_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep7_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep7_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep8_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep8_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep9_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep9_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep35_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep35_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep36_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep36_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep37_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep37_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep38_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep38_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep39_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep39_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep40_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep40_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep41_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep41_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep42_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep42_i has no
+   connections inside the I/O component.
+Running delay-based LUT packing...
+Running related packing...
+Updating timing models...
+WARNING:PhysDesignRules:812 - Dangling pin <DOA4> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA5> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA6> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA7> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA12> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA13> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA14> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA15> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA20> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA21> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA22> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA23> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA28> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA29> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA30> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA31> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB4> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB5> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB6> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB7> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB12> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB13> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB14> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB15> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB20> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB21> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB22> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB23> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB27> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB28> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB29> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB30> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB31> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA7> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA15> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA23> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA31> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB7> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB15> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB23> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB31> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA7> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA15> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA23> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA31> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB7> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB15> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB23> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB31> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA7> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA15> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA23> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA31> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB7> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB15> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB23> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB31> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA7> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA15> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA23> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA31> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB7> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB15> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB23> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB31> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   85
+Logic Utilization:
+  Number of Slice Flip Flops:         1,836 out of  66,560    2%
+  Number of 4 input LUTs:            18,233 out of  66,560   27%
+Logic Distribution:
+  Number of occupied Slices:          9,587 out of  33,280   28%
+    Number of Slices containing only related logic:   9,587 out of   9,587 100%
+    Number of Slices containing unrelated logic:          0 out of   9,587   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:      18,235 out of  66,560   27%
+    Number used as logic:            18,233
+    Number used as a route-thru:          2
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 87 out of     489   17%
+    IOB Flip Flops:                      49
+  Number of RAMB16s:                      9 out of     104    8%
+  Number of MULT18X18s:                  16 out of     104   15%
+  Number of BUFGMUXs:                     1 out of       8   12%
+
+Average Fanout of Non-Clock Nets:                3.83
+
+Peak Memory Usage:  494 MB
+Total REAL time to MAP completion:  35 secs 
+Total CPU time to MAP completion:   24 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "MasterSlave_TRI_map.mrp" for details.

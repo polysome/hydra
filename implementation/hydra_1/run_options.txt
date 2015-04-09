@@ -1,0 +1,80 @@
+#--  Synopsys, Inc.
+#--  Version G-2012.09-SP1 
+#--  Project file C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\run_options.txt
+
+#project files
+add_file -verilog "C:/Synopsys/fpga_G201209SP1/bin/../lib/xilinx/unisim.v"
+add_file -verilog "./udiv.v"
+add_file -verilog "./smart_sche_unit.v"
+add_file -verilog "./ipcore_dir/I_cache.v"
+add_file -xilinx "./ipcore_dir/I_cache.ngc"
+add_file -verilog "./ipcore_dir/blk_mem_gen_v4_2.v"
+add_file -xilinx "./ipcore_dir/blk_mem_gen_v4_2.ngc"
+add_file -verilog "./Hydra_inst_wo_load.v"
+add_file -verilog "./Top_controller_v2.v"
+add_file -verilog "./TBCTRL.v"
+add_file -verilog "./hydra_wrapper_v2.v"
+add_file -verilog "./MasterSlave_TRI.v"
+add_file -constraint "C:/Users/morpack/Documents/morpack_fpga/hydra/MasterSlave_TRI.sdc"
+
+
+#implementation: "hydra_1"
+impl -add hydra_1 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std sysv
+set_option -num_critical_paths 0
+set_option -num_startend_points 0
+
+#pr_1 attributes
+set_option -job pr_1 -add par
+set_option -job pr_1 -option enable_run 1
+
+#device options
+set_option -technology Spartan3
+set_option -part XC3S5000
+set_option -package FG676
+set_option -speed_grade -4
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "MasterSlave_TRI"
+
+# mapper_options
+set_option -frequency auto
+set_option -write_verilog 1
+set_option -write_vhdl 0
+set_option -srs_instrumentation 1
+
+# xilinx_options
+set_option -RWCheckOnRam 1
+
+# Xilinx Spartan3
+set_option -run_prop_extract 1
+set_option -maxfan 500
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -retiming 0
+set_option -update_models_cp 0
+set_option -fix_gated_and_generated_clocks 1
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 1
+set_option -resource_sharing 1
+
+#VIF options
+set_option -write_vif 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./hydra_1/MasterSlave_TRI.edf"
+impl -active "hydra_1"

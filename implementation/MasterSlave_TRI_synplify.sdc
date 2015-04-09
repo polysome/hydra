@@ -1,0 +1,1 @@
+#define_clock -internal  {6} [get_ports {HCLK}] -name  {MasterSlave_TRI|HCLK} -ref_rise  {0.0} -ref_fall  {50.347450} -uncertainty  {0.000000} -period  {100.694900} -clockgroup  {Autoconstr_clkgroup_0} -rise  {0.0} -fall  {50.347450} 

@@ -1,0 +1,711 @@
+
+Started : "Translate".
+Running ngdbuild...
+Command Line: ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc synplicity.ucf -p xc3s5000-fg676-4 C:/Users/morpack/Documents/morpack_fpga/hydra/hydra_1/MasterSlave_TRI.edf MasterSlave_TRI.ngd -verbose
+
+Command Line: C:\Xilinx\12.2\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd .. -nt timestamp -uc synplicity.ucf -p
+xc3s5000-fg676-4
+C:/Users/morpack/Documents/morpack_fpga/hydra/hydra_1/MasterSlave_TRI.edf
+MasterSlave_TRI.ngd -verbose
+
+Executing edif2ngd
+"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\MasterSlave_TRI.edf"
+"_ngo\MasterSlave_TRI.ngo"
+Release 12.2 - edif2ngd M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 12.2 edif2ngd M.63c (nt64)
+INFO:NgdBuild - Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Applying constraints in
+"C:/Users/morpack/Documents/morpack_fpga/hydra/hydra_1/MasterSlave_TRI.ncf" to
+module "MasterSlave_TRI"...
+Checking Constraint Associations...
+Writing module to "_ngo/MasterSlave_TRI.ngo"...
+Reading NGO file
+"C:/Users/morpack/Documents/morpack_fpga/hydra/hydra_1/pr_1/_ngo/MasterSlave_TRI
+.ngo" ...
+Executing edif2ngd -noa "blk_mem_gen_v4_2_0_D_cache_1_1_syn.edf"
+"_ngo\blk_mem_gen_v4_2_0_D_cache_1_1_syn.ngo"
+Release 12.2 - edif2ngd M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 12.2 edif2ngd M.63c (nt64)
+INFO:NgdBuild - Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Applying constraints in "blk_mem_gen_v4_2_0_D_cache_1_1_syn.ncf" to module
+"blk_mem_gen_v4_2_0_D_cache_1_1_syn"...
+Checking Constraint Associations...
+Writing module to "_ngo/blk_mem_gen_v4_2_0_D_cache_1_1_syn.ngo"...
+Loading design module
+"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\pr_1\_ngo\blk_mem_gen_v4_
+2_0_D_cache_1_1_syn.ngo"...
+Executing edif2ngd -noa "blk_mem_gen_v4_2_0_D_cache_1_2_syn.edf"
+"_ngo\blk_mem_gen_v4_2_0_D_cache_1_2_syn.ngo"
+Release 12.2 - edif2ngd M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 12.2 edif2ngd M.63c (nt64)
+INFO:NgdBuild - Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Applying constraints in "blk_mem_gen_v4_2_0_D_cache_1_2_syn.ncf" to module
+"blk_mem_gen_v4_2_0_D_cache_1_2_syn"...
+Checking Constraint Associations...
+Writing module to "_ngo/blk_mem_gen_v4_2_0_D_cache_1_2_syn.ngo"...
+Loading design module
+"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\pr_1\_ngo\blk_mem_gen_v4_
+2_0_D_cache_1_2_syn.ngo"...
+Executing edif2ngd -noa "blk_mem_gen_v4_2_D_cache_2_1_0_syn.edf"
+"_ngo\blk_mem_gen_v4_2_D_cache_2_1_0_syn.ngo"
+Release 12.2 - edif2ngd M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 12.2 edif2ngd M.63c (nt64)
+INFO:NgdBuild - Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Applying constraints in "blk_mem_gen_v4_2_D_cache_2_1_0_syn.ncf" to module
+"blk_mem_gen_v4_2_D_cache_2_1_0_syn"...
+Checking Constraint Associations...
+Writing module to "_ngo/blk_mem_gen_v4_2_D_cache_2_1_0_syn.ngo"...
+Loading design module
+"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\pr_1\_ngo\blk_mem_gen_v4_
+2_D_cache_2_1_0_syn.ngo"...
+Executing edif2ngd -noa "blk_mem_gen_v4_2_D_cache_2_2_syn.edf"
+"_ngo\blk_mem_gen_v4_2_D_cache_2_2_syn.ngo"
+Release 12.2 - edif2ngd M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 12.2 edif2ngd M.63c (nt64)
+INFO:NgdBuild - Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Applying constraints in "blk_mem_gen_v4_2_D_cache_2_2_syn.ncf" to module
+"blk_mem_gen_v4_2_D_cache_2_2_syn"...
+Checking Constraint Associations...
+Writing module to "_ngo/blk_mem_gen_v4_2_D_cache_2_2_syn.ngo"...
+Loading design module
+"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\pr_1\_ngo\blk_mem_gen_v4_
+2_D_cache_2_2_syn.ngo"...
+Executing edif2ngd -noa "I_cache_syn.edf" "_ngo\I_cache_syn.ngo"
+Release 12.2 - edif2ngd M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 12.2 edif2ngd M.63c (nt64)
+INFO:NgdBuild - Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Applying constraints in "I_cache_syn.ncf" to module "I_cache_syn"...
+Checking Constraint Associations...
+Writing module to "_ngo/I_cache_syn.ngo"...
+Loading design module
+"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\pr_1\_ngo\I_cache_syn.ngo
+"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "synplicity.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "MasterSlave_TRI.ngd" ...
+Total REAL time to NGDBUILD completion:  38 sec
+Total CPU time to NGDBUILD completion:   8 sec
+
+Writing NGDBUILD log file "MasterSlave_TRI.bld"...
+
+NGDBUILD done.
+
+Process "Translate" completed successfully
+
+Started : "Map".
+Running map...
+Command Line: map -intstyle ise -p xc3s5000-fg676-4 -cm area -detail -ir off -pr off -c 100 -o MasterSlave_TRI_map.ncd MasterSlave_TRI.ngd MasterSlave_TRI.pcf
+Using target part "3s5000fg676-4".
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to
+'2100@140.126.24.16'.
+INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to
+'26585@140.126.24.10;26585@140.126.24.10'.
+INFO:Security:56 - Part 'xc3s5000' is not a WebPack part.
+WARNING:Security:43 - No license file was found in the standard Xilinx license
+directory.
+WARNING:Security:44 - No license file was found.
+       Please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses")
+       to assist in obtaining a license.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+----------------------------------------------------------------------
+Mapping design into LUTs...
+Running directed packing...
+WARNING:Pack:1543 - The register TriBusControlLogic/SlaveDataPhaseSel_rep0_i has
+   the property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/SlaveDataPhaseSel_rep0_i
+   has no connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/SlaveDataPhaseSel_rep1_i has
+   the property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/SlaveDataPhaseSel_rep1_i
+   has no connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep0_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep0_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep1_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep1_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep2_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep2_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep3_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep3_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep4_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep4_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep5_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep5_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep6_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep6_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep7_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep7_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep8_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep8_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep9_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep9_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep35_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep35_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep36_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep36_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep37_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep37_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep38_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep38_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep39_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep39_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep40_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep40_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep41_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep41_i has no
+   connections inside the I/O component.
+WARNING:Pack:1543 - The register TriBusControlLogic/reg_HGRANT_rep42_i has the
+   property IOB=TRUE, but was not packed into the input side of an I/O
+   component. The register symbol TriBusControlLogic/reg_HGRANT_rep42_i has no
+   connections inside the I/O component.
+Running delay-based LUT packing...
+Running related packing...
+Updating timing models...
+WARNING:PhysDesignRules:812 - Dangling pin <DOA4> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA5> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA6> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA7> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA12> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA13> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA14> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA15> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA20> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA21> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA22> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA23> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA28> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA29> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA30> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA31> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB4> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB5> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB6> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB7> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB12> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB13> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB14> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB15> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB20> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB21> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB22> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB23> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB27> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB28> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB29> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB30> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB31> on
+   block:<uMasterSlave/u_myip_top/I_cache/BU2/U0/blk_mem_generator/valid.cstr/ra
+   mloop[0].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA7> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA15> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA23> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA31> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB7> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB15> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB23> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB31> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA7> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA15> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA23> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA31> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB7> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB15> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB23> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB31> on
+   block:<uMasterSlave/u_myip_top/D_cache_2_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA7> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA15> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA23> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA31> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB7> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB15> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB23> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB31> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_2/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA7> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA15> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA23> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOA31> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.A>:<RAMB16_RAMB16A>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB7> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB15> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB23> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+WARNING:PhysDesignRules:812 - Dangling pin <DOB31> on
+   block:<uMasterSlave/u_myip_top/D_cache_1_1/BU2/U0/blk_mem_generator/valid.cst
+   r/ramloop[1].ram.r/s3_noinit.ram/spram.ram.B>:<RAMB16_RAMB16B>.
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   85
+Logic Utilization:
+  Number of Slice Flip Flops:         1,836 out of  66,560    2%
+  Number of 4 input LUTs:            18,233 out of  66,560   27%
+Logic Distribution:
+  Number of occupied Slices:          9,587 out of  33,280   28%
+    Number of Slices containing only related logic:   9,587 out of   9,587 100%
+    Number of Slices containing unrelated logic:          0 out of   9,587   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:      18,235 out of  66,560   27%
+    Number used as logic:            18,233
+    Number used as a route-thru:          2
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 87 out of     489   17%
+    IOB Flip Flops:                      49
+  Number of RAMB16s:                      9 out of     104    8%
+  Number of MULT18X18s:                  16 out of     104   15%
+  Number of BUFGMUXs:                     1 out of       8   12%
+
+Average Fanout of Non-Clock Nets:                3.83
+
+Peak Memory Usage:  494 MB
+Total REAL time to MAP completion:  35 secs 
+Total CPU time to MAP completion:   24 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "MasterSlave_TRI_map.mrp" for details.
+
+Process "Map" completed successfully
+
+Started : "Place & Route".
+Running par...
+Command Line: par -w -intstyle ise -ol high -t 1 MasterSlave_TRI_map.ncd MasterSlave_TRI.ncd MasterSlave_TRI.pcf
+
+
+
+Constraints file: MasterSlave_TRI.pcf.
+Loading device for application Rf_Device from file '3s5000.nph' in environment C:\Xilinx\12.2\ISE_DS\ISE\.
+   "MasterSlave_TRI" is an NCD, version 3.2, device xc3s5000, package fg676, speed -4
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to '2100@140.126.24.16'.
+INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to '26585@140.126.24.10;26585@140.126.24.10'.
+INFO:Security:56 - Part 'xc3s5000' is not a WebPack part.
+WARNING:Security:43 - No license file was found in the standard Xilinx license directory.
+WARNING:Security:44 - No license file was found.
+       Please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses")
+       to assist in obtaining a license.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue
+to function, but you no longer qualify for Xilinx software updates or new releases.
+
+----------------------------------------------------------------------
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.39 2010-06-22".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                        1 out of 8      12%
+   Number of External IOBs                  87 out of 489    17%
+      Number of LOCed IOBs                   0 out of 87      0%
+
+   Number of MULT18X18s                     16 out of 104    15%
+   Number of RAMB16s                         9 out of 104     8%
+   Number of Slices                       9587 out of 33280  28%
+      Number of SLICEMs                    170 out of 16640   1%
+
+
+
+Overall effort level (-ol):   High 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 11 secs 
+Finished initial Timing Analysis.  REAL time: 14 secs 
+
+
+Starting Placer
+Total REAL time at the beginning of Placer: 14 secs 
+Total CPU  time at the beginning of Placer: 10 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:2cdc69b) REAL time: 19 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:2cdc69b) REAL time: 19 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:2cdc69b) REAL time: 19 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+....
+Phase 4.2  Initial Clock and IO Placement (Checksum:9f9d3c5b) REAL time: 23 secs 
+
+Phase 5.36  Local Placement Optimization
+Phase 5.36  Local Placement Optimization (Checksum:9f9d3c5b) REAL time: 23 secs 
+
+Phase 6.3  Local Placement Optimization
+....
+Phase 6.3  Local Placement Optimization (Checksum:db179f98) REAL time: 23 secs 
+
+Phase 7.5  Local Placement Optimization
+Phase 7.5  Local Placement Optimization (Checksum:db179f98) REAL time: 24 secs 
+
+Phase 8.8  Global Placement
+.........................
+...........................
+......................
+....................................................................
+.......................................................
+................................................
+........................................................................................
+...........................
+Phase 8.8  Global Placement (Checksum:a327c0b7) REAL time: 2 mins 21 secs 
+
+Phase 9.5  Local Placement Optimization
+Phase 9.5  Local Placement Optimization (Checksum:a327c0b7) REAL time: 2 mins 21 secs 
+
+Phase 10.18  Placement Optimization
+Phase 10.18  Placement Optimization (Checksum:d40664e2) REAL time: 3 mins 10 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:d40664e2) REAL time: 3 mins 10 secs 
+
+Total REAL time to Placer completion: 3 mins 12 secs 
+Total CPU  time to Placer completion: 3 mins 8 secs 
+Writing design to file MasterSlave_TRI.ncd
+
+
+
+Starting Router
+
+
+Phase  1  : 70987 unrouted;      REAL time: 3 mins 17 secs 
+
+Phase  2  : 69268 unrouted;      REAL time: 3 mins 34 secs 
+
+Phase  3  : 33715 unrouted;      REAL time: 3 mins 45 secs 
+
+Phase  4  : 41747 unrouted; (Setup:8830764, Hold:0, Component Switching Limit:0)     REAL time: 4 mins 44 secs 
+WARNING:Route:441 - The router has detected a very high timing score (8830764) for this design. It is extremely unlikely
+   the router will be able to meet your timing requirements. To prevent excessive run time the router will change
+   strategy. The router will now work to completely route this design but not to improve timing. This behavior will
+   allow you to use the Static Timing Report and FPGA Editor to isolate the paths with timing problems. The cause of
+   this behavior is either overly difficult constraints, or issues with the implementation or synthesis of logic in the
+   critical timing path. If you would prefer the router continue trying to meet timing and you are willing to accept a
+   long run time set the option "-xe c" to override the present behavior.
+
+Phase  5  : 0 unrouted; (Setup:16428472, Hold:0, Component Switching Limit:0)     REAL time: 5 mins 37 secs 
+
+Updating file: MasterSlave_TRI.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Setup:16428472, Hold:0, Component Switching Limit:0)     REAL time: 5 mins 48 secs 
+
+Phase  7  : 0 unrouted; (Setup:16428472, Hold:0, Component Switching Limit:0)     REAL time: 5 mins 50 secs 
+
+Phase  8  : 0 unrouted; (Setup:16065827, Hold:0, Component Switching Limit:0)     REAL time: 5 mins 56 secs 
+
+Total REAL time to Router completion: 5 mins 57 secs 
+Total CPU time to Router completion: 5 mins 51 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|              HCLK_c |      BUFGMUX0| No   | 1479 |  0.782     |  1.640      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 16065827 (Setup: 16065827, Hold: 0, Component Switching Limit: 0)
+
+WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in
+   your design.
+
+   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
+   Route Static Timing Report"). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+   Try the Design Goal and Strategies for Timing Performance(In ISE select Project -> Design Goals & Strategies) to
+   ensure the best options are set in the tools for timing closure.
+
+   Use the Xilinx "SmartXplorer" script to try special combinations of
+   options known to produce very good results.
+
+   Visit the Xilinx technical support web at http://support.xilinx.com and go to
+   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
+   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
+   in your design.
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* TS_HCLK = PERIOD TIMEGRP "HCLK" 63.639 ns | SETUP       |   -22.796ns|   102.408ns|     984|    16065827
+   HIGH 50%                                 | HOLD        |     0.873ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+1 constraint not met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 6 mins 6 secs 
+Total CPU time to PAR completion: 6 mins 1 secs 
+
+Peak Memory Usage:  684 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - 984 errors found.
+
+Number of error messages: 0
+Number of warning messages: 2
+Number of info messages: 0
+
+Writing design to file MasterSlave_TRI.ncd
+
+
+
+PAR done!
+
+Process "Place & Route" completed successfully
+
+Started : "Generate Post-Place & Route Static Timing".
+Running trce...
+Command Line: trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MasterSlave_TRI.twx MasterSlave_TRI.ncd -o MasterSlave_TRI.twr MasterSlave_TRI.pcf -ucf synplicity.ucf
+Loading device for application Rf_Device from file '3s5000.nph' in environment
+C:\Xilinx\12.2\ISE_DS\ISE\.
+   "MasterSlave_TRI" is an NCD, version 3.2, device xc3s5000, package fg676,
+speed -4
+
+Analysis completed Tue Jun 11 19:28:54 2013
+--------------------------------------------------------------------------------
+
+GeneINFO:TclTasksC:1850 - process run : Implement Design is done.
+rating Report ...
+
+Number of warnings: 0
+Total time: 32 secs 
+
+Process "Generate Post-Place & Route Static Timing" completed successfully

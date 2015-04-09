@@ -1,0 +1,84 @@
+WARNING:TclTasksC:2145 - The .ise file is no longer supported starting with the
+   12.1 release. The corresponding .xise file will be used instead.
+WARNING:TclTasksC:2145 - The .ise file is no longer supported starting with the
+   12.1 release. The corresponding .xise file will be used instead.
+INFO:TclTasksC:1850 - process run : Implement Design is done.
+
+Started : "Translate".
+Running ngdbuild...
+Command Line: ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc3s5000-fg676-4 MasterSlave_TRI.edn MasterSlave_TRI.ngd -verbose
+
+Command Line: C:\Xilinx\12.2\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc synplicity.ucf -p xc3s5000-fg676-4
+MasterSlave_TRI.edn MasterSlave_TRI.ngd -verbose
+
+Executing edif2ngd "MasterSlave_TRI.edn" "_ngo\MasterSlave_TRI.ngo"
+Release 12.2 - edif2ngd M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 12.2 edif2ngd M.63c (nt64)
+INFO:NgdBuild - Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild:1402 - Converting edif 'integer' property 'ADD' with value '3' on
+   object 'Hydra' to 'string' property.
+Applying constraints in "MasterSlave_TRI.ncf" to module "MasterSlave_TRI"...
+Checking Constraint Associations...
+Writing module to "_ngo/MasterSlave_TRI.ngo"...
+Reading NGO file
+"C:/Users/morpack/Documents/morpack_fpga/hydra/pr/_ngo/MasterSlave_TRI.ngo" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "synplicity.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+ERROR:NgdBuild:604 - logical block 'uMasterSlave/u_myip_top/D_cache_1_1' with
+   type 'blk_mem_gen_v4_2_0_D_cache_1_1_syn' could not be resolved. A pin name
+   misspelling can cause this, a missing edif or ngc file, case mismatch between
+   the block name and the edif or ngc file name, or the misspelling of a type
+   name. Symbol 'blk_mem_gen_v4_2_0_D_cache_1_1_syn' is not supported in target
+   'spartan3'.
+ERROR:NgdBuild:604 - logical block 'uMasterSlave/u_myip_top/D_cache_1_2' with
+   type 'blk_mem_gen_v4_2_0_D_cache_1_2_syn' could not be resolved. A pin name
+   misspelling can cause this, a missing edif or ngc file, case mismatch between
+   the block name and the edif or ngc file name, or the misspelling of a type
+   name. Symbol 'blk_mem_gen_v4_2_0_D_cache_1_2_syn' is not supported in target
+   'spartan3'.
+ERROR:NgdBuild:604 - logical block 'uMasterSlave/u_myip_top/D_cache_2_1' with
+   type 'blk_mem_gen_v4_2_D_cache_2_1_0_syn' could not be resolved. A pin name
+   misspelling can cause this, a missing edif or ngc file, case mismatch between
+   the block name and the edif or ngc file name, or the misspelling of a type
+   name. Symbol 'blk_mem_gen_v4_2_D_cache_2_1_0_syn' is not supported in target
+   'spartan3'.
+ERROR:NgdBuild:604 - logical block 'uMasterSlave/u_myip_top/D_cache_2_2' with
+   type 'blk_mem_gen_v4_2_D_cache_2_2_syn' could not be resolved. A pin name
+   misspelling can cause this, a missing edif or ngc file, case mismatch between
+   the block name and the edif or ngc file name, or the misspelling of a type
+   name. Symbol 'blk_mem_gen_v4_2_D_cache_2_2_syn' is not supported in target
+   'spartan3'.
+ERROR:NgdBuild:604 - logical block 'uMasterSlave/u_myip_top/I_cache' with type
+   'I_cache_syn' could not be resolved. A pin name misspelling can cause this, a
+   missing edif or ngc file, case mismatch between the block name and the edif
+   or ngc file name, or the misspelling of a type name. Symbol 'I_cache_syn' is
+   not supported in target 'spartan3'.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     5
+  Number of warnings:   0
+
+Total REAL time to NGDBUILD completion:  45 sec
+Total CPU time to NGDBUILD completion:   15 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "MasterSlave_TRI.bld"...
+
+Process "Translate" failed

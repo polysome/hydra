@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">uMasterSlave/u_myip_top/D_cache_1_1</arg>&apos; with type &apos;<arg fmt="%s" index="3">blk_mem_gen_v4_2_0_D_cache_1_1_syn</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">blk_mem_gen_v4_2_0_D_cache_1_1_syn</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">uMasterSlave/u_myip_top/D_cache_1_2</arg>&apos; with type &apos;<arg fmt="%s" index="3">blk_mem_gen_v4_2_0_D_cache_1_2_syn</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">blk_mem_gen_v4_2_0_D_cache_1_2_syn</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">uMasterSlave/u_myip_top/D_cache_2_1</arg>&apos; with type &apos;<arg fmt="%s" index="3">blk_mem_gen_v4_2_D_cache_2_1_0_syn</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">blk_mem_gen_v4_2_D_cache_2_1_0_syn</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">uMasterSlave/u_myip_top/D_cache_2_2</arg>&apos; with type &apos;<arg fmt="%s" index="3">blk_mem_gen_v4_2_D_cache_2_2_syn</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">blk_mem_gen_v4_2_D_cache_2_2_syn</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+<msg type="error" file="NgdBuild" num="604" delta="new" ><arg fmt="%s" index="1">logical</arg> block &apos;<arg fmt="%s" index="2">uMasterSlave/u_myip_top/I_cache</arg>&apos; with type &apos;<arg fmt="%s" index="3">I_cache_syn</arg>&apos; could not be resolved. A pin name misspelling can cause this, a missing edif or ngc file, case mismatch between the block name and the edif or ngc file name, or the misspelling of a type name. Symbol &apos;<arg fmt="%s" index="4">I_cache_syn</arg>&apos; is not supported in target &apos;<arg fmt="%s" index="5">spartan3</arg>&apos;.
+</msg>
+
+</messages>
+

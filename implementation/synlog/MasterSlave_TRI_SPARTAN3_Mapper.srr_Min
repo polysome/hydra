@@ -1,0 +1,55 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Jun 14 01:25:58 2013
+#
+
+
+Top view:               MasterSlave_TRI
+Requested Frequency:    9.9 MHz
+Wire load mode:         top
+Paths requested:        0
+Constraint File(s):    C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.sdc
+                       
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.912
+
+                         Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock           Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------------
+MasterSlave_TRI|HCLK     9.9 MHz       11.5 MHz      100.695       86.879        13.210     inferred     Autoconstr_clkgroup_0
+==============================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall    |    fall  to  rise  
+------------------------------------------------------------------------------------------------------------------------------------
+Starting              Ending                |  constraint  slack  |  constraint  slack  |  constraint  slack   |  constraint  slack 
+------------------------------------------------------------------------------------------------------------------------------------
+MasterSlave_TRI|HCLK  MasterSlave_TRI|HCLK  |  0.000       0.913  |  0.000       1.859  |  50.347      53.023  |  50.348      52.731
+====================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+##### END OF TIMING REPORT #####]
+

@@ -1,0 +1,11 @@
+Storage Target: Xilinx Flash/PROM
+Storage Family: Platform Flash
+xcf16p          [16 M]
+FF
+hydra
+C:\Users\morpack\Documents\morpack_fpga\hydra\
+
+MCS
+Yes
+1
+No

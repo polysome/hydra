@@ -1,0 +1,5 @@
+blk_mem_gen_v4_2 blk_mem_gen_v4_2_0_D_cache_1_1
+blk_mem_gen_v4_2 blk_mem_gen_v4_2_0_D_cache_1_2
+blk_mem_gen_v4_2 blk_mem_gen_v4_2_D_cache_2_1_0
+blk_mem_gen_v4_2 blk_mem_gen_v4_2_D_cache_2_2
+I_cache I_cache

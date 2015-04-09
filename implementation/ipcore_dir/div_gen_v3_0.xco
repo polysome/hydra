@@ -1,0 +1,54 @@
+##############################################################
+#
+# Xilinx Core Generator version 12.2
+# Date: Tue May 28 12:04:28 2013
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = false
+SET asysymbol = true
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = false
+SET designentry = Verilog
+SET device = xc3s5000
+SET devicefamily = spartan3
+SET flowvendor = Foundation_ISE
+SET formalverification = false
+SET foundationsym = false
+SET implementationfiletype = Ngc
+SET package = fg676
+SET removerpms = false
+SET simulationfiles = Behavioral
+SET speedgrade = -4
+SET verilogsim = true
+SET vhdlsim = true
+# END Project Options
+# BEGIN Select
+SELECT Divider_Generator family Xilinx,_Inc. 3.0
+# END Select
+# BEGIN Parameters
+CSET algorithm_type=Radix2
+CSET ce=false
+CSET clocks_per_division=1
+CSET component_name=div_gen_v3_0
+CSET divide_by_zero_detect=false
+CSET dividend_and_quotient_width=19
+CSET divisor_width=10
+CSET fractional_width=10
+CSET latency=23
+CSET latency_configuration=Automatic
+CSET operand_sign=Signed
+CSET remainder_type=Remainder
+CSET sclr=false
+CSET sclr_ce_priority=SCLR_overrides_CE
+# END Parameters
+GENERATE
+# CRC: 50c5c466

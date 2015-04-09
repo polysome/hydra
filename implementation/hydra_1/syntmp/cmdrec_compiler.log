@@ -1,0 +1,20 @@
+C:\Synopsys\fpga_G201209SP1\bin64\c_hdl.exe  -osyn  C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\synwork\MasterSlave_TRI_compiler.srs  -top  MasterSlave_TRI  -hdlloga  C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\MasterSlave_TRI.srr  -encrypt  -ngo -preserve_slash_names  C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.ngc  -ngo -preserve_slash_names  C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.ngc  -verilog  -prodtype  synplify_pro  -primux -fixsmult -sdff_counter -infer_seqShift -verification_mode 0  -nram -divnmod  -loadunimacro -I C:\Users\morpack\Documents\morpack_fpga\hydra\  -I C:\Synopsys\fpga_G201209SP1\lib  -sysv  -devicelib  C:\Synopsys\fpga_G201209SP1\lib\xilinx\unisim_m10i.v  -devicelib  C:\Synopsys\fpga_G201209SP1\lib\xilinx\unisim.v  -encrypt  -pro  -dmgen  C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\dm  -ll 2000 -compiler_compatible  -ui -fid2 -ram -sharing on  -autosm -lib work C:\Synopsys\fpga_G201209SP1\bin\..\lib\xilinx\unisim.v -lib work C:\Users\morpack\Documents\morpack_fpga\hydra\udiv.v -lib work C:\Users\morpack\Documents\morpack_fpga\hydra\smart_sche_unit.v -lib work C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v -lib work C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v -lib work C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v -lib work C:\Users\morpack\Documents\morpack_fpga\hydra\Top_controller_v2.v -lib work C:\Users\morpack\Documents\morpack_fpga\hydra\TBCTRL.v -lib work C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v -lib work C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v
+rc:0 success:1
+C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\synwork\MasterSlave_TRI_compiler.srs|o|1370949424|967169
+C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\MasterSlave_TRI.srr|o|1370949471|18558
+C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.ngc|i|1370257936|23958
+C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.ngc|i|1370257836|63688
+C:\Synopsys\fpga_G201209SP1\lib\xilinx\unisim_m10i.v|i|1353940546|948675
+C:\Synopsys\fpga_G201209SP1\lib\xilinx\unisim.v|i|1353940546|1220040
+C:\Synopsys\fpga_G201209SP1\bin\..\lib\xilinx\unisim.v|i|1353940546|1220040
+C:\Users\morpack\Documents\morpack_fpga\hydra\udiv.v|i|1370175933|1040
+C:\Users\morpack\Documents\morpack_fpga\hydra\smart_sche_unit.v|i|1369584780|5673
+C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v|i|1370257929|4867
+C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v|i|1370258688|4905
+C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v|i|1370255743|19674
+C:\Users\morpack\Documents\morpack_fpga\hydra\Top_controller_v2.v|i|1370178129|20349
+C:\Users\morpack\Documents\morpack_fpga\hydra\TBCTRL.v|i|1312955269|2351
+C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v|i|1370263348|25401
+C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v|i|1370266563|5920
+C:\Synopsys\fpga_G201209SP1\bin64\c_hdl.exe|i|1353940204|3790336
+C:\Synopsys\fpga_G201209SP1\bin\c_hdl.exe|i|1353940194|606208

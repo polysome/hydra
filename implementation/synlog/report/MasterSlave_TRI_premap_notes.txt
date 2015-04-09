@@ -1,0 +1,19 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a type rem remainder 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a type rem remainder 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a type rem remainder 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a type rem remainder 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a type rem remainder 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a type rem remainder 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a type rem remainder 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a type rem remainder 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a type rem remainder 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a type rem remainder 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a type rem remainder 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a type rem remainder 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a type rem remainder 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a type rem remainder 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a type rem remainder 
+@N: MF237 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Generating a type rem remainder 
+@N: BN225 |Writing default property annotation file C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.sap.

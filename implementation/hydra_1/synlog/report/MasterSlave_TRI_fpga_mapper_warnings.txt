@@ -1,0 +1,2 @@
+@W: MO129 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_wrapper_v2.v":636:0:636:5|Sequential instance uMasterSlave.MYIP_status_r[0] reduced to a combinational gate by constant propagation
+@W: MT420 |Found inferred clock MasterSlave_TRI|HCLK with period 63.64ns. Please declare a user-defined clock on object "p:HCLK"

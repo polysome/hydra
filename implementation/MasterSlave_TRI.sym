@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="MasterSlave_TRI">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2013-6-3T12:4:42</timestamp>
+    <attr value="MasterSlave_TRI" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-672" name="HCLK" />
+    <pin polarity="Input" x="0" y="-544" name="HRESETn" />
+    <pin polarity="Input" x="0" y="-416" name="HGRANT" />
+    <pin polarity="Input" x="0" y="-288" name="HREADYM" />
+    <pin polarity="Input" x="0" y="-160" name="HSEL" />
+    <pin polarity="Input" x="0" y="-32" name="HMASTER(3:0)" />
+    <pin polarity="Output" x="496" y="-672" name="HREADYS" />
+    <pin polarity="Output" x="496" y="-608" name="HBUSREQ" />
+    <pin polarity="BiDirectional" x="496" y="-544" name="HWRITEtri" />
+    <pin polarity="BiDirectional" x="496" y="-480" name="HLOCKtri" />
+    <pin polarity="BiDirectional" x="496" y="-416" name="HADDRtri(31:0)" />
+    <pin polarity="BiDirectional" x="496" y="-352" name="HBURSTtri(2:0)" />
+    <pin polarity="BiDirectional" x="496" y="-288" name="HPROTtri(3:0)" />
+    <pin polarity="BiDirectional" x="496" y="-224" name="HSIZEtri(2:0)" />
+    <pin polarity="BiDirectional" x="496" y="-160" name="HRESPtri(1:0)" />
+    <pin polarity="BiDirectional" x="496" y="-96" name="HTRANStri(1:0)" />
+    <pin polarity="BiDirectional" x="496" y="-32" name="HRWDATAtri(31:0)" />
+    <graph>
+        <rect width="368" x="64" y="-704" height="704" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="248" y="-712" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-672" type="pin HCLK" />
+        <line x2="0" y1="-672" y2="-672" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-544" type="pin HRESETn" />
+        <line x2="0" y1="-544" y2="-544" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin HGRANT" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin HREADYM" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin HSEL" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin HMASTER(3:0)" />
+        <rect width="64" x="0" y="-44" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-672" type="pin HREADYS" />
+        <line x2="496" y1="-672" y2="-672" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-608" type="pin HBUSREQ" />
+        <line x2="496" y1="-608" y2="-608" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-544" type="pin HWRITEtri" />
+        <line x2="496" y1="-544" y2="-544" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-480" type="pin HLOCKtri" />
+        <line x2="496" y1="-480" y2="-480" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-416" type="pin HADDRtri(31:0)" />
+        <rect width="64" x="432" y="-428" height="24" />
+        <line x2="496" y1="-416" y2="-416" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-352" type="pin HBURSTtri(2:0)" />
+        <rect width="64" x="432" y="-364" height="24" />
+        <line x2="496" y1="-352" y2="-352" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-288" type="pin HPROTtri(3:0)" />
+        <rect width="64" x="432" y="-300" height="24" />
+        <line x2="496" y1="-288" y2="-288" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-224" type="pin HSIZEtri(2:0)" />
+        <rect width="64" x="432" y="-236" height="24" />
+        <line x2="496" y1="-224" y2="-224" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-160" type="pin HRESPtri(1:0)" />
+        <rect width="64" x="432" y="-172" height="24" />
+        <line x2="496" y1="-160" y2="-160" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-96" type="pin HTRANStri(1:0)" />
+        <rect width="64" x="432" y="-108" height="24" />
+        <line x2="496" y1="-96" y2="-96" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-32" type="pin HRWDATAtri(31:0)" />
+        <rect width="64" x="432" y="-44" height="24" />
+        <line x2="496" y1="-32" y2="-32" x1="432" />
+    </graph>
+</symbol>

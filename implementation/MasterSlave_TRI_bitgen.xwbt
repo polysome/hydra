@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Documents and Settings\n415\My Documents\morpack_fpga\hydra\MasterSlave_TRI.ncd
+OUTFILE=C:\Documents and Settings\n415\My Documents\morpack_fpga\hydra\MasterSlave_TRI.bit
+FAMILY=Spartan3
+PART=xc3s5000-4fg676
+WORKINGDIR=C:\Documents and Settings\n415\My Documents\morpack_fpga\hydra
+LICENSE=ISE
+USER_INFO=174494484_177743344_177743346

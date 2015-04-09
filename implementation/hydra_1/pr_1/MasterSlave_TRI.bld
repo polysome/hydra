@@ -1,0 +1,115 @@
+Release 12.2 ngdbuild M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\12.2\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd .. -nt timestamp -uc synplicity.ucf -p
+xc3s5000-fg676-4
+C:/Users/morpack/Documents/morpack_fpga/hydra/hydra_1/MasterSlave_TRI.edf
+MasterSlave_TRI.ngd -verbose
+
+Executing edif2ngd
+"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\MasterSlave_TRI.edf"
+"_ngo\MasterSlave_TRI.ngo"
+Release 12.2 - edif2ngd M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 12.2 edif2ngd M.63c (nt64)
+INFO:NgdBuild - Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Applying constraints in
+"C:/Users/morpack/Documents/morpack_fpga/hydra/hydra_1/MasterSlave_TRI.ncf" to
+module "MasterSlave_TRI"...
+Checking Constraint Associations...
+Writing module to "_ngo/MasterSlave_TRI.ngo"...
+Reading NGO file
+"C:/Users/morpack/Documents/morpack_fpga/hydra/hydra_1/pr_1/_ngo/MasterSlave_TRI
+.ngo" ...
+Executing edif2ngd -noa "blk_mem_gen_v4_2_0_D_cache_1_1_syn.edf"
+"_ngo\blk_mem_gen_v4_2_0_D_cache_1_1_syn.ngo"
+Release 12.2 - edif2ngd M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 12.2 edif2ngd M.63c (nt64)
+INFO:NgdBuild - Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Applying constraints in "blk_mem_gen_v4_2_0_D_cache_1_1_syn.ncf" to module
+"blk_mem_gen_v4_2_0_D_cache_1_1_syn"...
+Checking Constraint Associations...
+Writing module to "_ngo/blk_mem_gen_v4_2_0_D_cache_1_1_syn.ngo"...
+Loading design module
+"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\pr_1\_ngo\blk_mem_gen_v4_
+2_0_D_cache_1_1_syn.ngo"...
+Executing edif2ngd -noa "blk_mem_gen_v4_2_0_D_cache_1_2_syn.edf"
+"_ngo\blk_mem_gen_v4_2_0_D_cache_1_2_syn.ngo"
+Release 12.2 - edif2ngd M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 12.2 edif2ngd M.63c (nt64)
+INFO:NgdBuild - Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Applying constraints in "blk_mem_gen_v4_2_0_D_cache_1_2_syn.ncf" to module
+"blk_mem_gen_v4_2_0_D_cache_1_2_syn"...
+Checking Constraint Associations...
+Writing module to "_ngo/blk_mem_gen_v4_2_0_D_cache_1_2_syn.ngo"...
+Loading design module
+"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\pr_1\_ngo\blk_mem_gen_v4_
+2_0_D_cache_1_2_syn.ngo"...
+Executing edif2ngd -noa "blk_mem_gen_v4_2_D_cache_2_1_0_syn.edf"
+"_ngo\blk_mem_gen_v4_2_D_cache_2_1_0_syn.ngo"
+Release 12.2 - edif2ngd M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 12.2 edif2ngd M.63c (nt64)
+INFO:NgdBuild - Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Applying constraints in "blk_mem_gen_v4_2_D_cache_2_1_0_syn.ncf" to module
+"blk_mem_gen_v4_2_D_cache_2_1_0_syn"...
+Checking Constraint Associations...
+Writing module to "_ngo/blk_mem_gen_v4_2_D_cache_2_1_0_syn.ngo"...
+Loading design module
+"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\pr_1\_ngo\blk_mem_gen_v4_
+2_D_cache_2_1_0_syn.ngo"...
+Executing edif2ngd -noa "blk_mem_gen_v4_2_D_cache_2_2_syn.edf"
+"_ngo\blk_mem_gen_v4_2_D_cache_2_2_syn.ngo"
+Release 12.2 - edif2ngd M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 12.2 edif2ngd M.63c (nt64)
+INFO:NgdBuild - Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Applying constraints in "blk_mem_gen_v4_2_D_cache_2_2_syn.ncf" to module
+"blk_mem_gen_v4_2_D_cache_2_2_syn"...
+Checking Constraint Associations...
+Writing module to "_ngo/blk_mem_gen_v4_2_D_cache_2_2_syn.ngo"...
+Loading design module
+"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\pr_1\_ngo\blk_mem_gen_v4_
+2_D_cache_2_2_syn.ngo"...
+Executing edif2ngd -noa "I_cache_syn.edf" "_ngo\I_cache_syn.ngo"
+Release 12.2 - edif2ngd M.63c (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+INFO:NgdBuild - Release 12.2 edif2ngd M.63c (nt64)
+INFO:NgdBuild - Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+Applying constraints in "I_cache_syn.ncf" to module "I_cache_syn"...
+Checking Constraint Associations...
+Writing module to "_ngo/I_cache_syn.ngo"...
+Loading design module
+"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\pr_1\_ngo\I_cache_syn.ngo
+"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "synplicity.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 225948 kilobytes
+
+Writing NGD file "MasterSlave_TRI.ngd" ...
+Total REAL time to NGDBUILD completion:  38 sec
+Total CPU time to NGDBUILD completion:   8 sec
+
+Writing NGDBUILD log file "MasterSlave_TRI.bld"...

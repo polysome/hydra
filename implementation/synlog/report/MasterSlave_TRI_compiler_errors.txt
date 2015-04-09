@@ -1,0 +1,2 @@
+@E: CS168 :"C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v":141:10:141:10|Port HMASTER does not exist
+

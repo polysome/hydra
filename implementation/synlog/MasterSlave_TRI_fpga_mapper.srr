@@ -1,0 +1,397 @@
+Synopsys Xilinx Technology Mapper, Version maprc, Build 1355R, Built Nov 28 2012 22:04:54
+Copyright (C) 1994-2012, Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version G-2012.09-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 92MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 94MB)
+
+Reading Xilinx I/O pad type table from file <C:\Synopsys\fpga_G201209SP1\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <C:\Synopsys\fpga_G201209SP1\lib\xilinx\gttype.txt> 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":47:17:47:24|Tristate driver HLOCKtri on net HLOCKtri has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO171 :"c:\users\morpack\documents\morpack_fpga\hydra\tbctrl.v":34:0:34:5|Sequential instance TriBusControlLogic.reg_HGRANT reduced to a combinational gate by constant propagation 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":125:22:125:47|Tristate driver un3_HSIZEtri[0] on net HSIZEtri[0] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":125:22:125:47|Tristate driver un3_HSIZEtri[2] on net HSIZEtri[2] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[10] on net HADDRtri[10] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[11] on net HADDRtri[11] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[12] on net HADDRtri[12] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[13] on net HADDRtri[13] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[14] on net HADDRtri[14] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[15] on net HADDRtri[15] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[16] on net HADDRtri[16] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[17] on net HADDRtri[17] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[18] on net HADDRtri[18] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[19] on net HADDRtri[19] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[20] on net HADDRtri[20] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[21] on net HADDRtri[21] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[22] on net HADDRtri[22] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[23] on net HADDRtri[23] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[24] on net HADDRtri[24] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[25] on net HADDRtri[25] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[26] on net HADDRtri[26] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[27] on net HADDRtri[27] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[28] on net HADDRtri[28] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[29] on net HADDRtri[29] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[30] on net HADDRtri[30] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[31] on net HADDRtri[31] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[0] on net HADDRtri[0] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[1] on net HADDRtri[1] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[2] on net HADDRtri[2] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[3] on net HADDRtri[3] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[4] on net HADDRtri[4] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[5] on net HADDRtri[5] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[6] on net HADDRtri[6] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[7] on net HADDRtri[7] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[8] on net HADDRtri[8] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":121:22:121:54|Tristate driver un2_HADDRtri[9] on net HADDRtri[9] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":122:22:122:47|Tristate driver un2_HTRANStri[0] on net HTRANStri[0] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":122:22:122:47|Tristate driver un2_HTRANStri[1] on net HTRANStri[1] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":123:22:123:48|Tristate driver un2_HBURSTtri[0] on net HBURSTtri[0] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":123:22:123:48|Tristate driver un2_HBURSTtri[1] on net HBURSTtri[1] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":123:22:123:48|Tristate driver un2_HBURSTtri[2] on net HBURSTtri[2] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":126:22:126:48|Tristate driver un2_HPROTtri[1] on net HPROTtri[1] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":126:22:126:48|Tristate driver un2_HPROTtri[2] on net HPROTtri[2] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":126:22:126:48|Tristate driver un2_HPROTtri[3] on net HPROTtri[3] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":124:22:124:46|Tristate driver un2_HWRITEtri on net HWRITEtri has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":125:22:125:47|Tristate driver un3_HSIZEtri[1] on net HSIZEtri[1] has its enable tied to GND (module MasterSlave_TRI) 
+@W: MO111 :"c:\users\morpack\documents\morpack_fpga\hydra\masterslave_tri.v":126:22:126:48|Tristate driver un2_HPROTtri[0] on net HPROTtri[0] has its enable tied to GND (module MasterSlave_TRI) 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:46s; CPU Time elapsed 0h:00m:46s; Memory used current: 135MB peak: 141MB)
+
+Encoding state machine current_state[7:0] (view:work.MYIP_WRAPPER(verilog))
+original code -> new code
+   0000 -> 00000001
+   0001 -> 00000010
+   0010 -> 00000100
+   0011 -> 00001000
+   0100 -> 00010000
+   0101 -> 00100000
+   0110 -> 01000000
+   1111 -> 10000000
+@N:"c:\users\morpack\documents\morpack_fpga\hydra\hydra_wrapper_v2.v":634:0:634:5|Found counter in view:work.MYIP_WRAPPER(verilog) inst ext_data_input_addr_counter[29:0]
+@N:"c:\users\morpack\documents\morpack_fpga\hydra\hydra_wrapper_v2.v":634:0:634:5|Found counter in view:work.MYIP_WRAPPER(verilog) inst ext_data_output_addr_counter[29:0]
+@N:"c:\users\morpack\documents\morpack_fpga\hydra\hydra_wrapper_v2.v":634:0:634:5|Found counter in view:work.MYIP_WRAPPER(verilog) inst ext_inst_input_addr_counter[29:0]
+@W: MO129 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_wrapper_v2.v":634:0:634:5|Sequential instance uMasterSlave.MYIP_status_r[0] reduced to a combinational gate by constant propagation
+Encoding state machine curstate[7:0] (view:work.Hydra_controller(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+@N:"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Found counter in view:work.Hydra_controller(verilog) inst counter_data[8:0]
+@N:"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Found counter in view:work.Hydra_controller(verilog) inst counter_io[4:0]
+@N:"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Found counter in view:work.Hydra_controller(verilog) inst counter_inst[8:0]
+Encoding state machine curstate[9:0] (view:work.Hydra(verilog))
+original code -> new code
+   0000 -> 0000000001
+   0010 -> 0000000010
+   0011 -> 0000000100
+   0100 -> 0000001000
+   0101 -> 0000010000
+   0110 -> 0000100000
+   0111 -> 0001000000
+   1000 -> 0010000000
+   1001 -> 0100000000
+   1111 -> 1000000000
+@N:"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":112:0:112:5|Found counter in view:work.Hydra(verilog) inst counter[4:0]
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l0\.un570_add2_in1.if_generate_plus\.mult1_un47_sum_s0[11:0] from _l0\.un570_add2_in1.if_generate_plus\.mult1_un47_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l0\.un570_add2_in1.if_generate_plus\.mult1_un33_sum_s0[11:0] from _l0\.un570_add2_in1.if_generate_plus\.mult1_un33_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l0\.un570_add2_in1.if_generate_plus\.mult1_un19_sum_s0[11:0] from _l0\.un570_add2_in1.if_generate_plus\.mult1_un19_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l15\.un735_add2_in1.if_generate_plus\.mult1_un19_sum_s0[11:0] from _l15\.un735_add2_in1.if_generate_plus\.mult1_un19_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l15\.un735_add2_in1.if_generate_plus\.mult1_un33_sum_s0[11:0] from _l15\.un735_add2_in1.if_generate_plus\.mult1_un33_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l15\.un735_add2_in1.if_generate_plus\.mult1_un47_sum_s0[11:0] from _l15\.un735_add2_in1.if_generate_plus\.mult1_un47_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l5\.un625_add2_in1.if_generate_plus\.mult1_un47_sum_s0[11:0] from _l5\.un625_add2_in1.if_generate_plus\.mult1_un47_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l7\.un647_add2_in1.if_generate_plus\.mult1_un47_sum_s0[11:0] from _l7\.un647_add2_in1.if_generate_plus\.mult1_un47_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l13\.un713_add2_in1.if_generate_plus\.mult1_un47_sum_s0[11:0] from _l13\.un713_add2_in1.if_generate_plus\.mult1_un47_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l9\.un669_add2_in1.if_generate_plus\.mult1_un47_sum_s0[11:0] from _l9\.un669_add2_in1.if_generate_plus\.mult1_un47_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l11\.un691_add2_in1.if_generate_plus\.mult1_un47_sum_s0[11:0] from _l11\.un691_add2_in1.if_generate_plus\.mult1_un47_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l4\.un614_add2_in1.if_generate_plus\.mult1_un47_sum_s0[11:0] from _l4\.un614_add2_in1.if_generate_plus\.mult1_un47_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l2\.un592_add2_in1.if_generate_plus\.mult1_un47_sum_s0[11:0] from _l2\.un592_add2_in1.if_generate_plus\.mult1_un47_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l6\.un636_add2_in1.if_generate_plus\.mult1_un47_sum_s0[11:0] from _l6\.un636_add2_in1.if_generate_plus\.mult1_un47_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l12\.un702_add2_in1.if_generate_plus\.mult1_un47_sum_s0[11:0] from _l12\.un702_add2_in1.if_generate_plus\.mult1_un47_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l8\.un658_add2_in1.if_generate_plus\.mult1_un47_sum_s0[11:0] from _l8\.un658_add2_in1.if_generate_plus\.mult1_un47_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l10\.un680_add2_in1.if_generate_plus\.mult1_un47_sum_s0[11:0] from _l10\.un680_add2_in1.if_generate_plus\.mult1_un47_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l14\.un724_add2_in1.if_generate_plus\.mult1_un47_sum_s0[11:0] from _l14\.un724_add2_in1.if_generate_plus\.mult1_un47_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l3\.un603_add2_in1.if_generate_plus\.mult1_un47_sum_s0[11:0] from _l3\.un603_add2_in1.if_generate_plus\.mult1_un47_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l2\.un592_add2_in1.if_generate_plus\.mult1_un33_sum_s0[11:0] from _l2\.un592_add2_in1.if_generate_plus\.mult1_un33_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l6\.un636_add2_in1.if_generate_plus\.mult1_un33_sum_s0[11:0] from _l6\.un636_add2_in1.if_generate_plus\.mult1_un33_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l12\.un702_add2_in1.if_generate_plus\.mult1_un33_sum_s0[11:0] from _l12\.un702_add2_in1.if_generate_plus\.mult1_un33_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l8\.un658_add2_in1.if_generate_plus\.mult1_un33_sum_s0[11:0] from _l8\.un658_add2_in1.if_generate_plus\.mult1_un33_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l10\.un680_add2_in1.if_generate_plus\.mult1_un33_sum_s0[11:0] from _l10\.un680_add2_in1.if_generate_plus\.mult1_un33_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l14\.un724_add2_in1.if_generate_plus\.mult1_un33_sum_s0[11:0] from _l14\.un724_add2_in1.if_generate_plus\.mult1_un33_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l3\.un603_add2_in1.if_generate_plus\.mult1_un33_sum_s0[11:0] from _l3\.un603_add2_in1.if_generate_plus\.mult1_un33_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l5\.un625_add2_in1.if_generate_plus\.mult1_un33_sum_s0[11:0] from _l5\.un625_add2_in1.if_generate_plus\.mult1_un33_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l7\.un647_add2_in1.if_generate_plus\.mult1_un33_sum_s0[11:0] from _l7\.un647_add2_in1.if_generate_plus\.mult1_un33_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l13\.un713_add2_in1.if_generate_plus\.mult1_un33_sum_s0[11:0] from _l13\.un713_add2_in1.if_generate_plus\.mult1_un33_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l9\.un669_add2_in1.if_generate_plus\.mult1_un33_sum_s0[11:0] from _l9\.un669_add2_in1.if_generate_plus\.mult1_un33_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l11\.un691_add2_in1.if_generate_plus\.mult1_un33_sum_s0[11:0] from _l11\.un691_add2_in1.if_generate_plus\.mult1_un33_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l4\.un614_add2_in1.if_generate_plus\.mult1_un33_sum_s0[11:0] from _l4\.un614_add2_in1.if_generate_plus\.mult1_un33_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l5\.un625_add2_in1.if_generate_plus\.mult1_un19_sum_s0[11:0] from _l5\.un625_add2_in1.if_generate_plus\.mult1_un19_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l7\.un647_add2_in1.if_generate_plus\.mult1_un19_sum_s0[11:0] from _l7\.un647_add2_in1.if_generate_plus\.mult1_un19_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l13\.un713_add2_in1.if_generate_plus\.mult1_un19_sum_s0[11:0] from _l13\.un713_add2_in1.if_generate_plus\.mult1_un19_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l9\.un669_add2_in1.if_generate_plus\.mult1_un19_sum_s0[11:0] from _l9\.un669_add2_in1.if_generate_plus\.mult1_un19_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l11\.un691_add2_in1.if_generate_plus\.mult1_un19_sum_s0[11:0] from _l11\.un691_add2_in1.if_generate_plus\.mult1_un19_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l4\.un614_add2_in1.if_generate_plus\.mult1_un19_sum_s0[11:0] from _l4\.un614_add2_in1.if_generate_plus\.mult1_un19_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l2\.un592_add2_in1.if_generate_plus\.mult1_un19_sum_s0[11:0] from _l2\.un592_add2_in1.if_generate_plus\.mult1_un19_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l6\.un636_add2_in1.if_generate_plus\.mult1_un19_sum_s0[11:0] from _l6\.un636_add2_in1.if_generate_plus\.mult1_un19_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l12\.un702_add2_in1.if_generate_plus\.mult1_un19_sum_s0[11:0] from _l12\.un702_add2_in1.if_generate_plus\.mult1_un19_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l8\.un658_add2_in1.if_generate_plus\.mult1_un19_sum_s0[11:0] from _l8\.un658_add2_in1.if_generate_plus\.mult1_un19_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l10\.un680_add2_in1.if_generate_plus\.mult1_un19_sum_s0[11:0] from _l10\.un680_add2_in1.if_generate_plus\.mult1_un19_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l14\.un724_add2_in1.if_generate_plus\.mult1_un19_sum_s0[11:0] from _l14\.un724_add2_in1.if_generate_plus\.mult1_un19_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l3\.un603_add2_in1.if_generate_plus\.mult1_un19_sum_s0[11:0] from _l3\.un603_add2_in1.if_generate_plus\.mult1_un19_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l1\.un581_add2_in1.if_generate_plus\.mult1_un47_sum_s0[11:0] from _l1\.un581_add2_in1.if_generate_plus\.mult1_un47_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l1\.un581_add2_in1.if_generate_plus\.mult1_un33_sum_s0[11:0] from _l1\.un581_add2_in1.if_generate_plus\.mult1_un33_sum_d1[11:0] 
+@N: FX404 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_inst_wo_load.v":408:19:408:61|Found addmux in view:work.Hydra(verilog) inst _l1\.un581_add2_in1.if_generate_plus\.mult1_un19_sum_s0[11:0] from _l1\.un581_add2_in1.if_generate_plus\.mult1_un19_sum_d1[11:0] 
+Encoding state machine counter[1:0] (view:work.smart_unit(verilog))
+original code -> new code
+   00000 -> 0
+   00001 -> 1
+@N:"c:\users\morpack\documents\morpack_fpga\hydra\smart_sche_unit.v":70:0:70:5|Found counter in view:work.smart_unit(verilog) inst counter_jump[6:0]
+
+Finished factoring (Real Time elapsed 0h:01m:22s; CPU Time elapsed 0h:01m:22s; Memory used current: 265MB peak: 266MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:01m:25s; CPU Time elapsed 0h:01m:24s; Memory used current: 222MB peak: 284MB)
+
+
+Clock Buffers:
+  Inserting Clock buffer for port HCLK,
+
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_wrapper_v2.v":248:14:248:14|Removing sequential instance uMasterSlave.current_state[0] of view:UNILIB.FDCPE(PRIM) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_wrapper_v2.v":634:0:634:5|Removing sequential instance uMasterSlave.ext_inst_input_addr_counter[29:0] of view:PrimLib.counter(prim) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_wrapper_v2.v":634:0:634:5|Boundary register uMasterSlave.ext_inst_input_addr_counter[29:0] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_wrapper_v2.v":634:0:634:5|Removing sequential instance uMasterSlave.ext_data_output_addr_counter[29:0] of view:PrimLib.counter(prim) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_wrapper_v2.v":634:0:634:5|Boundary register uMasterSlave.ext_data_output_addr_counter[29:0] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_wrapper_v2.v":634:0:634:5|Removing sequential instance uMasterSlave.ext_data_input_addr_counter[29:0] of view:PrimLib.counter(prim) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\hydra_wrapper_v2.v":634:0:634:5|Boundary register uMasterSlave.ext_data_input_addr_counter[29:0] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Removing sequential instance uMasterSlave.u_myip_top.offset_addr_r[13] of view:UNILIB.FDCPE(PRIM) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Boundary register uMasterSlave.u_myip_top.offset_addr_r[13] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Removing sequential instance uMasterSlave.u_myip_top.offset_addr_r[12] of view:UNILIB.FDCPE(PRIM) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Boundary register uMasterSlave.u_myip_top.offset_addr_r[12] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Removing sequential instance uMasterSlave.u_myip_top.offset_addr_r[11] of view:UNILIB.FDCPE(PRIM) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Boundary register uMasterSlave.u_myip_top.offset_addr_r[11] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Removing sequential instance uMasterSlave.u_myip_top.offset_addr_r[10] of view:UNILIB.FDCPE(PRIM) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Boundary register uMasterSlave.u_myip_top.offset_addr_r[10] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Removing sequential instance uMasterSlave.u_myip_top.offset_addr_r[9] of view:UNILIB.FDCPE(PRIM) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Boundary register uMasterSlave.u_myip_top.offset_addr_r[9] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Removing sequential instance uMasterSlave.u_myip_top.offset_addr_r[8] of view:UNILIB.FDCPE(PRIM) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Boundary register uMasterSlave.u_myip_top.offset_addr_r[8] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Removing sequential instance uMasterSlave.u_myip_top.offset_addr_r[7] of view:UNILIB.FDCPE(PRIM) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Boundary register uMasterSlave.u_myip_top.offset_addr_r[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Removing sequential instance uMasterSlave.u_myip_top.offset_addr_r[6] of view:UNILIB.FDCPE(PRIM) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Boundary register uMasterSlave.u_myip_top.offset_addr_r[6] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Removing sequential instance uMasterSlave.u_myip_top.offset_addr_r[5] of view:UNILIB.FDCPE(PRIM) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Boundary register uMasterSlave.u_myip_top.offset_addr_r[5] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Removing sequential instance uMasterSlave.u_myip_top.offset_addr_r[4] of view:UNILIB.FDCPE(PRIM) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Boundary register uMasterSlave.u_myip_top.offset_addr_r[4] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Removing sequential instance uMasterSlave.u_myip_top.offset_addr_r[3] of view:UNILIB.FDCPE(PRIM) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Boundary register uMasterSlave.u_myip_top.offset_addr_r[3] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Removing sequential instance uMasterSlave.u_myip_top.offset_addr_r[2] of view:UNILIB.FDCPE(PRIM) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Boundary register uMasterSlave.u_myip_top.offset_addr_r[2] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Removing sequential instance uMasterSlave.u_myip_top.offset_addr_r[1] of view:UNILIB.FDCPE(PRIM) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Boundary register uMasterSlave.u_myip_top.offset_addr_r[1] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Removing sequential instance uMasterSlave.u_myip_top.offset_addr_r[0] of view:UNILIB.FDCPE(PRIM) in hierarchy view:work.MasterSlave_TRI(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":584:2:584:7|Boundary register uMasterSlave.u_myip_top.offset_addr_r[0] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:01m:36s; CPU Time elapsed 0h:01m:36s; Memory used current: 227MB peak: 284MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:01m:48s; CPU Time elapsed 0h:01m:47s; Memory used current: 236MB peak: 284MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:02m:44s; CPU Time elapsed 0h:02m:43s; Memory used current: 249MB peak: 284MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:02m:46s; CPU Time elapsed 0h:02m:45s; Memory used current: 239MB peak: 284MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:02m:55s; CPU Time elapsed 0h:02m:54s; Memory used current: 246MB peak: 284MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:03m:08s; CPU Time elapsed 0h:03m:07s; Memory used current: 276MB peak: 327MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:03m:11s		   -32.59ns		23240 /      2267
+   2		0h:03m:12s		   -31.93ns		23240 /      2267
+   3		0h:03m:12s		   -30.71ns		23240 /      2267
+   4		0h:03m:13s		   -30.09ns		23240 /      2267
+   5		0h:03m:14s		   -30.09ns		23241 /      2267
+------------------------------------------------------------
+
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\smart_sche_unit.v":70:0:70:5|Instance "uMasterSlave.u_myip_top.my_dec.inst_2[10]" with 449 loads replicated 3 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\smart_sche_unit.v":70:0:70:5|Instance "uMasterSlave.u_myip_top.my_dec.inst_2[11]" with 322 loads replicated 3 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\smart_sche_unit.v":70:0:70:5|Instance "uMasterSlave.u_myip_top.my_dec.inst_2[12]" with 322 loads replicated 3 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\smart_sche_unit.v":70:0:70:5|Instance "uMasterSlave.u_myip_top.my_dec.inst_2[13]" with 322 loads replicated 3 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\smart_sche_unit.v":70:0:70:5|Instance "uMasterSlave.u_myip_top.my_dec.inst_2[14]" with 322 loads replicated 3 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\smart_sche_unit.v":70:0:70:5|Instance "uMasterSlave.u_myip_top.my_dec.inst_2[19]" with 323 loads replicated 3 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\smart_sche_unit.v":70:0:70:5|Instance "uMasterSlave.u_myip_top.my_dec.inst_2[20]" with 323 loads replicated 3 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\smart_sche_unit.v":70:0:70:5|Instance "uMasterSlave.u_myip_top.my_dec.inst_2[21]" with 323 loads replicated 3 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\smart_sche_unit.v":70:0:70:5|Instance "uMasterSlave.u_myip_top.my_dec.inst_2[22]" with 323 loads replicated 3 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\smart_sche_unit.v":70:0:70:5|Instance "uMasterSlave.u_myip_top.my_dec.inst_2[23]" with 323 loads replicated 3 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.g0" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[23]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[29]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[22]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[22]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[28]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[28]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[27]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[27]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[20]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[20]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[26]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[26]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[19]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[19]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[25]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[25]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[24]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[24]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[21]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[21]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[47]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[47]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[125]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[125]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[45]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[45]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[77]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[77]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[124]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[124]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[18]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[18]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[15]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[15]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[76]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[76]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[123]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[123]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[17]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[17]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[14]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[207]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[207]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[75]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[13]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[13]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :|Instance "G_7" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :|Instance "G_7_0" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[12]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[206]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[206]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[74]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1_0[30]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :|Instance "G_7_1" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[11]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[11]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[205]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[205]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[73]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[73]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[41]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[41]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[191]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":277:22:277:56|Instance "uMasterSlave.u_myip_top.D_cache_D1[175]" with 2 loads replicated 1 times to improve timing 
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":278:22:278:56|Instance "uMasterSlave.u_myip_top.D_cache_D2[175]" with 2 loads replicated 1 times to improve timing 
+Timing driven replication report
+Added 30 Registers via timing driven replication
+Added 96 LUTs via timing driven replication
+
+@N: FX271 :"c:\users\morpack\documents\morpack_fpga\hydra\smart_sche_unit.v":70:0:70:5|Instance "uMasterSlave.u_myip_top.my_dec.inst_2_fast[10]" with 36 loads replicated 2 times to improve timing 
+Timing driven replication report
+Added 2 Registers via timing driven replication
+Added 2 LUTs via timing driven replication
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:03m:38s		   -29.06ns		23338 /      2299
+   2		0h:03m:38s		   -28.97ns		23338 /      2299
+------------------------------------------------------------
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:03m:40s		   -28.86ns		23338 /      2299
+------------------------------------------------------------
+
+@N: FX104 |Net "uMasterSlave.u_myip_top.my_hydra._l0\.un570_add2_in1.if_generate_plus\.mult1_un2_temp_b_1_cry_9" with "576" loads has been buffered by "2" buffers due to a soft fanout limit of "500" 
+@N: FX103 :"c:\users\morpack\documents\morpack_fpga\hydra\top_controller_v2.v":369:3:369:16|Instance "uMasterSlave.u_myip_top.curstate[3]" with "648" loads has been replicated "1" time(s) due to a soft fanout limit of "500" 
+@N: FX104 |Net "Mem_dft_mode_c" with "550" loads has been buffered by "2" buffers due to a soft fanout limit of "500" 
+Net buffering Report for view:work.MasterSlave_TRI(verilog):
+Added 4 Buffers
+Added 1 Registers via replication
+Added 1 LUTs via replication
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:03m:44s; CPU Time elapsed 0h:03m:43s; Memory used current: 277MB peak: 327MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+
+Finished restoring hierarchy (Real Time elapsed 0h:03m:49s; CPU Time elapsed 0h:03m:48s; Memory used current: 286MB peak: 327MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 2318 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+================================ Non-Gated/Non-Generated Clocks ================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance         
+------------------------------------------------------------------------------------------------
+@K:CKID0001       HCLK                port                   2318       uMasterSlave.S_HREADYout
+================================================================================================
+===== Gated/Generated Clocks =====
+************** None **************
+----------------------------------
+==================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:03m:56s; CPU Time elapsed 0h:03m:55s; Memory used current: 266MB peak: 327MB)
+
+Writing EDIF Netlist and constraint files
+@W: FX845 |Cannot determine Xilinx version. Please check Xilinx environment variable. Writing UCF for version ISE 11.1
+G-2012.09-SP1 
+G-2012.09-SP1 
+@W: FX421 |iprotect.exe -vendor xilinx C:\Users\morpack\Documents\morpack_fpga\hydra\syntmp\blk_mem_gen_v4_2_0_D_cache_1_1_syn_encrypt.edf C:\Users\morpack\Documents\morpack_fpga\hydra/blk_mem_gen_v4_2_0_D_cache_1_1_syn.edn
+@E: FX425 |Trying to run IPROTECT, but cannot locate Xilinx backend -- please verify
+Process took 0h:03m:59s realtime, 0h:03m:58s cputime
+# Thu Jun 13 22:08:21 2013
+
+###########################################################]

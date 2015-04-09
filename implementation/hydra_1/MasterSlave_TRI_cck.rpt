@@ -1,0 +1,205 @@
+# Synopsys Constraint Checker, version maprc, Build 1355R, built Nov 28 2012
+# Copyright (C) 1994-2012, Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+# Written on Tue Jun 11 19:17:38 2013
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "MasterSlave_TRI"
+Constraint File(s):      "C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.sdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                 Ending                   |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+MasterSlave_TRI|HCLK     MasterSlave_TRI|HCLK     |     47.930           |     47.930           |     23.965           |     23.965                           
+=============================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:HADDRtri[0] (bidir end point)
+p:HADDRtri[0] (bidir start point)
+p:HADDRtri[1] (bidir end point)
+p:HADDRtri[1] (bidir start point)
+p:HADDRtri[2] (bidir end point)
+p:HADDRtri[2] (bidir start point)
+p:HADDRtri[3] (bidir end point)
+p:HADDRtri[3] (bidir start point)
+p:HADDRtri[4] (bidir end point)
+p:HADDRtri[4] (bidir start point)
+p:HADDRtri[5] (bidir end point)
+p:HADDRtri[5] (bidir start point)
+p:HADDRtri[6] (bidir end point)
+p:HADDRtri[6] (bidir start point)
+p:HADDRtri[7] (bidir end point)
+p:HADDRtri[7] (bidir start point)
+p:HADDRtri[8] (bidir end point)
+p:HADDRtri[8] (bidir start point)
+p:HADDRtri[9] (bidir end point)
+p:HADDRtri[9] (bidir start point)
+p:HADDRtri[10] (bidir end point)
+p:HADDRtri[10] (bidir start point)
+p:HADDRtri[11] (bidir end point)
+p:HADDRtri[11] (bidir start point)
+p:HADDRtri[12] (bidir end point)
+p:HADDRtri[12] (bidir start point)
+p:HADDRtri[13] (bidir end point)
+p:HADDRtri[13] (bidir start point)
+p:HADDRtri[14] (bidir end point)
+p:HADDRtri[14] (bidir start point)
+p:HADDRtri[15] (bidir end point)
+p:HADDRtri[15] (bidir start point)
+p:HADDRtri[16]
+p:HADDRtri[17]
+p:HADDRtri[18]
+p:HADDRtri[19]
+p:HADDRtri[20]
+p:HADDRtri[21]
+p:HADDRtri[22]
+p:HADDRtri[23]
+p:HADDRtri[24]
+p:HADDRtri[25]
+p:HADDRtri[26]
+p:HADDRtri[27]
+p:HADDRtri[28]
+p:HADDRtri[29]
+p:HADDRtri[30]
+p:HADDRtri[31]
+p:HBURSTtri[0]
+p:HBURSTtri[1]
+p:HBURSTtri[2]
+p:HBUSREQ
+p:HGRANT
+p:HLOCKtri
+p:HMASTER[0]
+p:HMASTER[1]
+p:HMASTER[2]
+p:HMASTER[3]
+p:HPROTtri[0]
+p:HPROTtri[1]
+p:HPROTtri[2]
+p:HPROTtri[3]
+p:HREADYM
+p:HREADYS
+p:HRESETn
+p:HRESPtri[0] (bidir end point)
+p:HRESPtri[0] (bidir start point)
+p:HRESPtri[1] (bidir end point)
+p:HRESPtri[1] (bidir start point)
+p:HRWDATAtri[0] (bidir end point)
+p:HRWDATAtri[0] (bidir start point)
+p:HRWDATAtri[1] (bidir end point)
+p:HRWDATAtri[1] (bidir start point)
+p:HRWDATAtri[2] (bidir end point)
+p:HRWDATAtri[2] (bidir start point)
+p:HRWDATAtri[3] (bidir end point)
+p:HRWDATAtri[3] (bidir start point)
+p:HRWDATAtri[4] (bidir end point)
+p:HRWDATAtri[4] (bidir start point)
+p:HRWDATAtri[5] (bidir end point)
+p:HRWDATAtri[5] (bidir start point)
+p:HRWDATAtri[6] (bidir end point)
+p:HRWDATAtri[6] (bidir start point)
+p:HRWDATAtri[7] (bidir end point)
+p:HRWDATAtri[7] (bidir start point)
+p:HRWDATAtri[8] (bidir end point)
+p:HRWDATAtri[8] (bidir start point)
+p:HRWDATAtri[9] (bidir end point)
+p:HRWDATAtri[9] (bidir start point)
+p:HRWDATAtri[10] (bidir end point)
+p:HRWDATAtri[10] (bidir start point)
+p:HRWDATAtri[11] (bidir end point)
+p:HRWDATAtri[11] (bidir start point)
+p:HRWDATAtri[12] (bidir end point)
+p:HRWDATAtri[12] (bidir start point)
+p:HRWDATAtri[13] (bidir end point)
+p:HRWDATAtri[13] (bidir start point)
+p:HRWDATAtri[14] (bidir end point)
+p:HRWDATAtri[14] (bidir start point)
+p:HRWDATAtri[15] (bidir end point)
+p:HRWDATAtri[15] (bidir start point)
+p:HRWDATAtri[16] (bidir end point)
+p:HRWDATAtri[16] (bidir start point)
+p:HRWDATAtri[17] (bidir end point)
+p:HRWDATAtri[17] (bidir start point)
+p:HRWDATAtri[18] (bidir end point)
+p:HRWDATAtri[18] (bidir start point)
+p:HRWDATAtri[19] (bidir end point)
+p:HRWDATAtri[19] (bidir start point)
+p:HRWDATAtri[20] (bidir end point)
+p:HRWDATAtri[20] (bidir start point)
+p:HRWDATAtri[21] (bidir end point)
+p:HRWDATAtri[21] (bidir start point)
+p:HRWDATAtri[22] (bidir end point)
+p:HRWDATAtri[22] (bidir start point)
+p:HRWDATAtri[23] (bidir end point)
+p:HRWDATAtri[23] (bidir start point)
+p:HRWDATAtri[24] (bidir end point)
+p:HRWDATAtri[24] (bidir start point)
+p:HRWDATAtri[25] (bidir end point)
+p:HRWDATAtri[25] (bidir start point)
+p:HRWDATAtri[26] (bidir end point)
+p:HRWDATAtri[26] (bidir start point)
+p:HRWDATAtri[27] (bidir end point)
+p:HRWDATAtri[27] (bidir start point)
+p:HRWDATAtri[28] (bidir end point)
+p:HRWDATAtri[28] (bidir start point)
+p:HRWDATAtri[29] (bidir end point)
+p:HRWDATAtri[29] (bidir start point)
+p:HRWDATAtri[30] (bidir end point)
+p:HRWDATAtri[30] (bidir start point)
+p:HRWDATAtri[31] (bidir end point)
+p:HRWDATAtri[31] (bidir start point)
+p:HSEL
+p:HSIZEtri[0]
+p:HSIZEtri[1]
+p:HSIZEtri[2]
+p:HTRANStri[0]
+p:HTRANStri[1] (bidir end point)
+p:HTRANStri[1] (bidir start point)
+p:HWRITEtri (bidir end point)
+p:HWRITEtri (bidir start point)
+p:interrupt
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

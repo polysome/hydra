@@ -1,0 +1,86 @@
+#Build: Synplify Pro E-2011.03-SP1, Build 053R, May 19 2011
+#install: C:\Synopsys\fpga_E201103SP1
+#OS:  6.1
+#Hostname: MD631-PC
+
+#Implementation: hydra
+
+$ Start of Compile
+#Fri Jun 14 01:56:36 2013
+
+Synopsys HDL Compiler, version comp550rcp1, Build 072R, built May 25 2011
+@N|Running in 64-bit mode
+Copyright (C) 1994-2011 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+C:\Users\morpack\Documents\morpack_fpga\hydra\coreip\I_cache.ngc
+C:\Users\morpack\Documents\morpack_fpga\hydra\coreip\blk_mem_gen_v4_2.ngc
+Synopsys Verilog Compiler, version comp550rcp1, Build 072R, built May 25 2011
+@N|Running in 64-bit mode
+Copyright (C) 1994-2011 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@I::"C:\Synopsys\fpga_E201103SP1\lib\xilinx\unisim_m10i.v"
+@I::"C:\Synopsys\fpga_E201103SP1\lib\xilinx\unisim.v"
+@I::"C:\Synopsys\fpga_E201103SP1\lib\vlog\hypermods.v"
+@I::"C:\Users\morpack\Documents\morpack_fpga\hydra\smart_sche_unit.v"
+@I::"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v"
+@N: CG334 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v":56:13:56:25|Read directive translate_off 
+@N: CG333 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v":136:13:136:24|Read directive translate_on 
+@W: CS141 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v":140:13:140:21|Unrecognized synthesis directive attribute
+@I::"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v"
+@N: CG334 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v":56:13:56:25|Read directive translate_off 
+@N: CG333 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v":136:13:136:24|Read directive translate_on 
+@W: CS141 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v":140:13:140:21|Unrecognized synthesis directive attribute
+@I::"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v"
+@I::"C:\Users\morpack\Documents\morpack_fpga\hydra\Top_controller_v2.v"
+@I::"C:\Users\morpack\Documents\morpack_fpga\hydra\TBCTRL.v"
+@I::"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v"
+@I::"C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v"
+@W: CG921 :"C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v":75:16:75:27|Mem_dft_mode is already declared in this scope.
+@W: CG921 :"C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v":76:16:76:28|Mem_wen_hydra is already declared in this scope.
+Verilog syntax check successful!
+# Fri Jun 14 01:56:37 2013
+
+###########################################################]
+Synopsys Verilog Compiler, version comp550rcp1, Build 072R, built May 25 2011
+@N|Running in 64-bit mode
+Copyright (C) 1994-2011 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@I::"C:\Synopsys\fpga_E201103SP1\lib\xilinx\unisim_m10i.v"
+@I::"C:\Synopsys\fpga_E201103SP1\lib\xilinx\unisim.v"
+@I::"C:\Synopsys\fpga_E201103SP1\lib\vlog\hypermods.v"
+@I::"C:\Users\morpack\Documents\morpack_fpga\hydra\smart_sche_unit.v"
+@I::"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v"
+@N: CG334 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v":56:13:56:25|Read directive translate_off 
+@N: CG333 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v":136:13:136:24|Read directive translate_on 
+@W: CS141 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v":140:13:140:21|Unrecognized synthesis directive attribute
+@I::"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v"
+@N: CG334 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v":56:13:56:25|Read directive translate_off 
+@N: CG333 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v":136:13:136:24|Read directive translate_on 
+@W: CS141 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v":140:13:140:21|Unrecognized synthesis directive attribute
+@I::"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v"
+@I::"C:\Users\morpack\Documents\morpack_fpga\hydra\Top_controller_v2.v"
+@I::"C:\Users\morpack\Documents\morpack_fpga\hydra\TBCTRL.v"
+@I::"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v"
+@I::"C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v"
+@W: CG921 :"C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v":75:16:75:27|Mem_dft_mode is already declared in this scope.
+@W: CG921 :"C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v":76:16:76:28|Mem_wen_hydra is already declared in this scope.
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module MasterSlave_TRI
+@N: CG364 :"C:\Users\morpack\Documents\morpack_fpga\hydra\TBCTRL.v":1:7:1:12|Synthesizing module TBCTRL
+
+@N: CG179 :"C:\Users\morpack\Documents\morpack_fpga\hydra\TBCTRL.v":98:28:98:44|Removing redundant assignment
+@N: CG179 :"C:\Users\morpack\Documents\morpack_fpga\hydra\TBCTRL.v":113:16:113:20|Removing redundant assignment
+@N: CG364 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":1:7:1:11|Synthesizing module Hydra
+
+@E: CG193 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":408:19:408:61|divisor must be a positive constant power of 2
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jun 14 01:56:37 2013
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jun 14 01:56:37 2013
+
+###########################################################]

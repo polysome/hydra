@@ -1,0 +1,17 @@
+C:\Synopsys\fpga_G201209SP1\bin64\m_xilinx.exe  -prodtype synplify_pro -encrypt  -pro  -rundir  C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1  -part XC3S5000FG676-4   -maxfan 500  -m1  -pipe   -fixgatedclocks 1 -fixgeneratedclocks 1 -verification_mode 0   -overilog "MasterSlave_TRI.vm"   -summaryfile C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\synlog\report\MasterSlave_TRI_fpga_mapper.xml -RWCheckOnRam 1   -reporting_ctd 1  -preserve_slash_names -top_level_module  MasterSlave_TRI  -flow mapping  -bamode  -mp 1 -prjfile  C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\scratchproject.prs  -implementation hydra_1 -licensetype  synplifypremierdp  -ta_num_paths 0  -ta_num_points 0  -oedif  C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\MasterSlave_TRI.edf  -autoconstraint  -freq 1.000  -tcl  C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.sdc  C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\synwork\MasterSlave_TRI_premap.srd  -sap  C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\MasterSlave_TRI.sap  -otap  C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\MasterSlave_TRI.tap  -omap  C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\MasterSlave_TRI.map  -devicelib  C:\Synopsys\fpga_G201209SP1\lib\xilinx\unisim_m10i.v  -devicelib  C:\Synopsys\fpga_G201209SP1\lib\xilinx\unisim.v  -sap  C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\MasterSlave_TRI.sap  -ologparam  C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\syntmp\MasterSlave_TRI.plg  -osyn  C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\MasterSlave_TRI.srm  -prjdir  C:\Users\morpack\Documents\morpack_fpga\hydra\  -prjname  MasterSlave_TRI  -log  C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\synlog\MasterSlave_TRI_fpga_mapper.srr 
+rc:1 success:1
+C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\scratchproject.prs|o|1370949413|2778
+C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\MasterSlave_TRI.edf|o|1370949636|13698459
+C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.sdc|i|1369889519|0
+C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\synwork\MasterSlave_TRI_premap.srd|i|1370949472|334356
+C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\MasterSlave_TRI.sap|o|1370949473|32999
+C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\MasterSlave_TRI.tap|o|0|0
+C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\MasterSlave_TRI.map|o|1370949640|28
+C:\Synopsys\fpga_G201209SP1\lib\xilinx\unisim_m10i.v|i|1353940546|948675
+C:\Synopsys\fpga_G201209SP1\lib\xilinx\unisim.v|i|1353940546|1220040
+C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\MasterSlave_TRI.sap|o|1370949473|32999
+C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\syntmp\MasterSlave_TRI.plg|o|1370949640|996
+C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\MasterSlave_TRI.srm|o|1370949632|1344382
+C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\synlog\MasterSlave_TRI_fpga_mapper.srr|o|1370949640|17121
+C:\Synopsys\fpga_G201209SP1\bin64\m_xilinx.exe|i|1354115078|23484416
+C:\Synopsys\fpga_G201209SP1\bin\m_xilinx.exe|i|1354115052|20130816

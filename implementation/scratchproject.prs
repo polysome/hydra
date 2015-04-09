@@ -1,0 +1,80 @@
+#-- Synopsys, Inc.
+#-- Version E-2011.03-SP1
+#-- Project file C:\Users\morpack\Documents\morpack_fpga\hydra\scratchproject.prs
+
+#project files
+add_file -verilog "C:/Users/morpack/Documents/morpack_fpga/hydra/smart_sche_unit.v"
+add_file -verilog "C:/Users/morpack/Documents/morpack_fpga/hydra/ipcore_dir/I_cache.v"
+add_file -xilinx "C:/Users/morpack/Documents/morpack_fpga/hydra/ipcore_dir/I_cache.ngc"
+add_file -verilog "C:/Users/morpack/Documents/morpack_fpga/hydra/ipcore_dir/blk_mem_gen_v4_2.v"
+add_file -xilinx "C:/Users/morpack/Documents/morpack_fpga/hydra/ipcore_dir/blk_mem_gen_v4_2.ngc"
+add_file -verilog "C:/Users/morpack/Documents/morpack_fpga/hydra/Hydra_inst_wo_load.v"
+add_file -verilog "C:/Users/morpack/Documents/morpack_fpga/hydra/Top_controller_v2.v"
+add_file -verilog "C:/Users/morpack/Documents/morpack_fpga/hydra/TBCTRL.v"
+add_file -verilog "C:/Users/morpack/Documents/morpack_fpga/hydra/hydra_wrapper_v2.v"
+add_file -verilog "C:/Users/morpack/Documents/morpack_fpga/hydra/MasterSlave_TRI.v"
+add_file -constraint "C:/Users/morpack/Documents/morpack_fpga/hydra/MasterSlave_TRI.sdc"
+
+
+#implementation: "hydra"
+impl -add C:\Users\morpack\Documents\morpack_fpga\hydra -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std sysv
+set_option -num_critical_paths 0
+set_option -num_startend_points 0
+
+#pr attributes
+set_option -job pr -add par
+set_option -job pr -option enable_run 1
+
+#device options
+set_option -technology SPARTAN3
+set_option -part xc3s5000
+set_option -package fg676
+set_option -speed_grade -4
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "MasterSlave_TRI"
+
+# mapper_options
+set_option -frequency auto
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# Xilinx Spartan3
+set_option -run_prop_extract 1
+set_option -maxfan 500
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -retiming 0
+set_option -update_models_cp 0
+set_option -fixgatedclocks 3
+set_option -fixgeneratedclocks 3
+set_option -no_sequential_opt 0
+
+# NFilter
+set_option -popfeed 0
+set_option -constprop 0
+set_option -createhierarchy 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 1
+set_option -resource_sharing 1
+
+#VIF options
+set_option -write_vif 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "C:/Users/morpack/Documents/morpack_fpga/hydra/MasterSlave_TRI.edn"
+impl -active "hydra"

@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator M.63c
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Users\morpack\Documents\morpack_fpga\hydra\//hydra -x xcf16p -ver 0 C:/Users/morpack/Documents/morpack_fpga/hydra/masterslave_tri.bit 
+
+PROM C:\Users\morpack\Documents\morpack_fpga\hydra\hydra.prm map: Fri Jun 14 02:11:03 2013
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          2048K
+PROM start    0000:0000
+PROM end      001f:ffff
+PROM checksum 08808604
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0019:506f     Jun 14 02:10:05 2013 C:/Users/morpack/Documents/morpack_fpga/hydra/masterslave_tri.bit

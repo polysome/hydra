@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the area information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="1" name="Area Summary">
+<report_link name="Detailed report">
+<data>C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_1\synlog\report\MasterSlave_TRI_fpga_mapper_resourceusage.rpt</data>
+</report_link>
+<parameter tooltip="Total I/O ports used" name="I/O ports">
+<data>92</data>
+</parameter>
+<parameter tooltip="Total Non I/O Register bits used" name="Non I/O Register bits">
+<data>1836 (2%)</data>
+</parameter>
+<parameter tooltip="Total I/O Register bits used" name="I/O Register bits">
+<data>49</data>
+</parameter>
+<parameter tooltip="Total Block Rams used" name="Block Rams">
+<data>9 (104)</data>
+</parameter>
+<parameter tooltip="Total Block Multipliers used" name="Block Multipliers">
+<data>16 (104)</data>
+</parameter>
+<parameter tooltip="Total LUTs used" name="LUTs">
+<data>18280 (27%)</data>
+</parameter>
+</report_table>

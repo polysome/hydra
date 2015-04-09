@@ -1,0 +1,54 @@
+---------------------------------------
+Resource Usage Report for MasterSlave_TRI 
+
+Mapping to part: xc3s5000fg676-4
+Cell usage:
+FDC             318 uses
+FDCE            1501 uses
+FDC_1           16 uses
+FDP             48 uses
+FDPE            2 uses
+GND             17 uses
+MULT18X18       16 uses
+MULT_AND        148 uses
+MUXCY           59 uses
+MUXCY_L         1150 uses
+MUXF5           2372 uses
+MUXF6           427 uses
+MUXF7           85 uses
+RAMB16_S36_S36  9 uses
+VCC             17 uses
+XORCY           1099 uses
+LUT1            314 uses
+LUT2            943 uses
+LUT3            9149 uses
+LUT4            7874 uses
+
+I/O ports: 92
+I/O primitives: 87
+IBUF           4 uses
+IBUFG          1 use
+IOBUF          52 uses
+OBUF           3 uses
+OBUFT          27 uses
+
+BUFG           1 use
+
+I/O Register bits:                  49
+Register bits not including I/Os:   1836 (2%)
+
+RAM/ROM usage summary
+Block Rams : 9 of 104 (8%)
+
+
+Block Multipliers: 16 of 104 (15%)
+
+Global Clock Buffers: 1 of 8 (12%)
+
+
+Mapping Summary:
+Total  LUTs: 18280 (27%)
+
+Distribution of All Consumed LUTs = LUT1 + LUT2 + LUT3 + LUT4 
+Distribution of All Consumed Luts 18280 = 314 + 943 + 9149 + 7874 
+

@@ -1,0 +1,66 @@
+@W: Z287 |edf2srs -- unable to locate ngc2edif 
+@W: Z288 |edf2srs -- NGC/NGO files in project excluded from timing estimation. 
+@W: Z287 |edf2srs -- unable to locate ngc2edif 
+@W: Z288 |edf2srs -- NGC/NGO files in project excluded from timing estimation. 
+@W: Z287 |edf2srs -- unable to locate ngc2edif 
+@W: Z288 |edf2srs -- NGC/NGO files in project excluded from timing estimation. 
+@W: Z287 |edf2srs -- unable to locate ngc2edif 
+@W: Z288 |edf2srs -- NGC/NGO files in project excluded from timing estimation. 
+@W: CS141 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v":140:13:140:21|Unrecognized synthesis directive attribute
+@W: CS141 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v":140:13:140:21|Unrecognized synthesis directive attribute
+@W: CG921 :"C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v":75:16:75:27|Mem_dft_mode is already declared in this scope.
+@W: CG921 :"C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v":76:16:76:28|Mem_wen_hydra is already declared in this scope.
+@W: CS141 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v":140:13:140:21|Unrecognized synthesis directive attribute
+@W: CS141 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v":140:13:140:21|Unrecognized synthesis directive attribute
+@W: CG921 :"C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v":75:16:75:27|Mem_dft_mode is already declared in this scope.
+@W: CG921 :"C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v":76:16:76:28|Mem_wen_hydra is already declared in this scope.
+@W: CL265 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Pruning bit 18 of Y[16][18:0] -- not in use ...
+@W: CL190 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Optimizing register bit np[1] to a constant 0
+@W: CL190 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Optimizing register bit np[2] to a constant 0
+@W: CL190 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Optimizing register bit np[3] to a constant 0
+@W: CL190 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Optimizing register bit np[4] to a constant 0
+@W: CL190 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Optimizing register bit np[5] to a constant 0
+@W: CL190 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Optimizing register bit np[9] to a constant 0
+@W: CL190 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Optimizing register bit np[11] to a constant 0
+@W: CL190 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Optimizing register bit np[13] to a constant 0
+@W: CL190 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Optimizing register bit np[14] to a constant 0
+@W: CL190 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Optimizing register bit np[15] to a constant 0
+@W: CL279 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Pruning register bits 15 to 13 of np[15:0] 
+@W: CL260 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Pruning register bit 11 of np[15:0] 
+@W: CL260 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Pruning register bit 9 of np[15:0] 
+@W: CL279 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Pruning register bits 5 to 1 of np[15:0] 
+@W: CG146 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\blk_mem_gen_v4_2.v":40:7:40:22|Creating black box for empty module blk_mem_gen_v4_2
+@W: CG133 :"C:\Users\morpack\Documents\morpack_fpga\hydra\smart_sche_unit.v":35:19:35:31|No assignment to inst_out_next
+@W: CG146 :"C:\Users\morpack\Documents\morpack_fpga\hydra\ipcore_dir\I_cache.v":40:7:40:13|Creating black box for empty module I_cache
+@W: CG360 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Top_controller_v2.v":83:14:83:23|No assignment to wire hy_data_o1
+@W: CG133 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Top_controller_v2.v":101:9:101:9|No assignment to i
+@W: CG360 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Top_controller_v2.v":295:14:295:19|No assignment to wire data_w
+@W: CL169 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Top_controller_v2.v":584:2:584:7|Pruning register counter_data_d1[8:0] 
+@W: CL169 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Top_controller_v2.v":584:2:584:7|Pruning register data_byte_r_7_d1[31:0] 
+@W: CL169 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Top_controller_v2.v":584:2:584:7|Pruning register out_require_r 
+@W: CL169 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Top_controller_v2.v":584:2:584:7|Pruning register out_require_r1 
+@W: CG360 :"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v":151:12:151:29|No assignment to wire myip_en_read_mem_o
+@W: CG360 :"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v":159:12:159:25|No assignment to wire myip_require_o
+@W: CG360 :"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v":162:8:162:19|No assignment to wire myip_is_busy
+@W: CL169 :"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v":634:0:634:5|Pruning register M_HRDATA_r[31:0] 
+@W: CL169 :"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v":634:0:634:5|Pruning register MYIP_output_data_r[31:0] 
+@W: CL169 :"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v":266:0:266:5|Pruning register S_HsizeReg[2:0] 
+@W: CL271 :"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v":266:0:266:5|Pruning bits 31 to 16 of S_HaddrReg[31:0] -- not in use ...
+@W: CL265 :"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v":266:0:266:5|Pruning bit 0 of S_HtransReg[1:0] -- not in use ...
+@W: CG781 :"C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v":132:7:132:24|Undriven input HGRANT on instance TriBusControlLogic, tying to 0
+@W: CS263 :"C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v":178:23:178:29|Port-width mismatch for port M_HSIZE. Formal has width 3, Actual 2
+@W: CG360 :"C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v":47:17:47:24|No assignment to wire HLOCKtri
+@W: CL157 :"C:\Users\morpack\Documents\morpack_fpga\hydra\MasterSlave_TRI.v":47:17:47:24|*Output HLOCKtri has undriven bits -- simulation mismatch possible.
+@W: CL260 :"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v":634:0:634:5|Pruning register bit 2 of current_state_d1_r[3:0] 
+@W: CL246 :"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v":61:20:61:26|Input port bits 31 to 16 of S_HADDR[31:0] are unused
+@W: CL247 :"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v":62:20:62:27|Input port bit 0 of S_HTRANS[1:0] is unused
+@W: CL159 :"C:\Users\morpack\Documents\morpack_fpga\hydra\hydra_wrapper_v2.v":64:20:64:26|Input S_HSIZE is unused
+@W: CL279 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":112:0:112:5|Pruning register bits 8 to 7 of np[8:6] 
+@W: CL246 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":45:22:45:29|Input port bits 25 to 24 of inst_cur[30:0] are unused
+@W: CL247 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":45:22:45:29|Input port bit 15 of inst_cur[30:0] is unused
+@W: CL246 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":45:22:45:29|Input port bits 5 to 0 of inst_cur[30:0] are unused
+@W: CL246 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":45:33:45:40|Input port bits 30 to 25 of inst_nxt[30:0] are unused
+@W: CL246 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":45:33:45:40|Input port bits 23 to 16 of inst_nxt[30:0] are unused
+@W: CL246 :"C:\Users\morpack\Documents\morpack_fpga\hydra\Hydra_inst_wo_load.v":45:33:45:40|Input port bits 14 to 0 of inst_nxt[30:0] are unused
+@W: CL159 :"C:\Users\morpack\Documents\morpack_fpga\hydra\TBCTRL.v":6:8:6:16|Input HREADYout is unused
+

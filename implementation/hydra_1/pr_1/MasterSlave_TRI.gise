@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="MasterSlave_TRI.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="MasterSlave_TRI.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="MasterSlave_TRI.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="MasterSlave_TRI.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="MasterSlave_TRI.ngd"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="MasterSlave_TRI.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="MasterSlave_TRI.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="MasterSlave_TRI.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="MasterSlave_TRI.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="MasterSlave_TRI.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="MasterSlave_TRI.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="MasterSlave_TRI.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="MasterSlave_TRI.xpi"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="MasterSlave_TRI_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="MasterSlave_TRI_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="MasterSlave_TRI_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="MasterSlave_TRI_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="MasterSlave_TRI_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MasterSlave_TRI_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MasterSlave_TRI_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="MasterSlave_TRI_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="MasterSlave_TRI_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MasterSlave_TRI_par.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="MasterSlave_TRI_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="MasterSlave_TRI_usage.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1370949643" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1370949643">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1370949643" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3563574724391053756" xil_pn:start_ts="1370949643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1370949643" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-3818198074400663992" xil_pn:start_ts="1370949643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1370949643" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1370949643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1370949643" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-5142182967048555892" xil_pn:start_ts="1370949643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1370949643" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-4348152628426637214" xil_pn:start_ts="1370949643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1370949643" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6333637987289607470" xil_pn:start_ts="1370949643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1370949643" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-1535812442457546020" xil_pn:start_ts="1370949643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1370949643" xil_pn:in_ck="7044271498302706980" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1680275744140806455" xil_pn:start_ts="1370949643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1370949685" xil_pn:in_ck="2348437804354414753" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-340001601894348215" xil_pn:start_ts="1370949643">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="MasterSlave_TRI.bld"/>
+      <outfile xil_pn:name="MasterSlave_TRI.ngd"/>
+      <outfile xil_pn:name="MasterSlave_TRI_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1370949727" xil_pn:in_ck="-1866313252559240800" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="2131129792461956313" xil_pn:start_ts="1370949685">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="MasterSlave_TRI.pcf"/>
+      <outfile xil_pn:name="MasterSlave_TRI_map.map"/>
+      <outfile xil_pn:name="MasterSlave_TRI_map.mrp"/>
+      <outfile xil_pn:name="MasterSlave_TRI_map.ncd"/>
+      <outfile xil_pn:name="MasterSlave_TRI_map.ngm"/>
+      <outfile xil_pn:name="MasterSlave_TRI_map.xrpt"/>
+      <outfile xil_pn:name="MasterSlave_TRI_summary.xml"/>
+      <outfile xil_pn:name="MasterSlave_TRI_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1370950137" xil_pn:in_ck="-8915648097401379207" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-1905879495237001327" xil_pn:start_ts="1370949727">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="MasterSlave_TRI.ncd"/>
+      <outfile xil_pn:name="MasterSlave_TRI.pad"/>
+      <outfile xil_pn:name="MasterSlave_TRI.par"/>
+      <outfile xil_pn:name="MasterSlave_TRI.ptwx"/>
+      <outfile xil_pn:name="MasterSlave_TRI.unroutes"/>
+      <outfile xil_pn:name="MasterSlave_TRI.xpi"/>
+      <outfile xil_pn:name="MasterSlave_TRI_pad.csv"/>
+      <outfile xil_pn:name="MasterSlave_TRI_pad.txt"/>
+      <outfile xil_pn:name="MasterSlave_TRI_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1370950137" xil_pn:in_ck="-5315582711199061476" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1370950101">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="MasterSlave_TRI.twr"/>
+      <outfile xil_pn:name="MasterSlave_TRI.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>
