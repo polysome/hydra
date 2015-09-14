@@ -1,4 +1,4 @@
-hydra
+Hydra
 =====
 
 Hydra is [an energy efficient programmable cryptographic coprocessor supporting elliptic curve pairings over fields of large characteristics](https://github.com/polysome/hydra/blob/master/documentation/hydra.pdf).
